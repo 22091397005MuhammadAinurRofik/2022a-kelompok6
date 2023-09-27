@@ -201,7 +201,7 @@ Appendix A: Glossary
 Appendix B: Analysis Models
 
 Flowchart
-![flowchart](./image/flowchart.jpg)
+ ![flowchart](./image/flowchart.jpg)
 
 
  
