@@ -1,0 +1,116 @@
+header {
+  background-color: #eee7e7;
+  color: #000000;
+  padding-left: 30px;
+  width: 100%;
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+
+.navbar {
+  display: flex;
+  padding-right: 50px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #e2d5d5;
+}
+
+.containerbook {
+  align-items: center;
+  width: 550px;
+  height: 300px;
+  margin: 0px auto;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerbook2 {
+  align-items: center;
+  width: 515px;
+  height: 280px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 15px;
+  display: flex;
+  background-color: #e2d5d5;
+  border-radius: 10px;
+}
+
+.containerhalaman {
+  width: 0px;
+  padding: 0px;
+  background-color: #7c66667c;
+  background-attachment: fixed;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.containerform {
+  width: 330px;
+  height: 150px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #a34242d0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.halamanbuku {
+  display: flex;
+}
+
+.judulhalaman {
+  padding-left: 20px;
+  display: flex;
+}
+
+.btn {
+  background-color: #dfc7c7;
+}
+
+.footer {
+  width: 1300px;
+  padding: 50px;
+  margin-top: 40px;
+  background-color: #7c66667c;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1360px;
+  height: 700px;
+  color: white;
+  text-align: left;
+  padding: 230px;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 350px;
+  margin: 10px 9px 30px;
+}
+
+th {
+  border: 0px solid #000000;
+  padding: 6px;
+  text-align: left;
+}
+
+td {
+  border: 0px solid #000000;
+  font-size: small;
+  padding: 6px;
+  text-align: left;
+}
