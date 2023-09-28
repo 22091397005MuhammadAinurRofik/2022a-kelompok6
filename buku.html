@@ -28,46 +28,30 @@
       <img src="./image/img2.jpg" width="1399px" height="700px" />
       <div class="overlay">
         <div class="containerform">
-          <!-- form LOGIN -->
-          <form>
-            <table>
-              <thead>
-                <tr>
-                  <th>LOGIN</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td><label for="email">E-mail :</label></td>
-                  <td style="text-align: left">
-                    <input
-                      type="text"
-                      name="email"
-                      id="email"
-                      style="background-color: #a85f5f69"
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td><label for="password">Password :</label></td>
-                  <td style="text-align: left">
-                    <input
-                      type="password"
-                      name="password"
-                      id="password"
-                      style="background-color: #a85f5f69"
-                    />
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <button style="background-color: #dfc7c7">kirim</button>
-                  </td>
-                </tr>
-              </tbody>
+          <fieldset>
+            <legend style="text-align: center">
+              <img src="./image/kontak.png" width="50px" height="50px" />
+            </legend>
+            <table class="centertabel">
+              <tr>
+                <td><label for="email">E-mail:</label></td>
+              </tr>
+              <tr>
+                <td><input type="text" name="email" id="email" /></td>
+              </tr>
+              <tr>
+                <td><label for="password">Password:</label></td>
+              </tr>
+              <tr>
+                <td><input type="password" name="password" id="password" /></td>
+              </tr>
             </table>
-          </form>
-          <!-- form LOGIN -->
+            <table class="centertabel">
+              <tr>
+                <td><button class="btnlogin">LOGIN</button></td>
+              </tr>
+            </table>
+          </fieldset>
         </div>
       </div>
       <!--  -->
@@ -83,36 +67,32 @@
         <div class="containerbook2">
           <img src="./image/book1.jpg" width="170px" />
           <table>
-            <!-- tabel head untuk cover buku -->
-            <thead>
-              <tr>
-                <td>
-                  <!-- tabel detail -->
-                  <h2><strong>Tanah Surga Merah</strong></h2>
-                  <table>
-                    <tr></tr>
-                    <tr>
-                      <th>Jumlah Halaman</th>
-                      <th>Penerbit</th>
-                    </tr>
-                    <tr>
-                      <td>316</td>
-                      <td>Gramedia Pustaka Utama</td>
-                    </tr>
-                    <tr>
-                      <th>Tanggal Terbit</th>
-                      <th>Bahasa</th>
-                    </tr>
-                    <tr>
-                      <td>24 Nov 2019</td>
-                      <td>Indonesia</td>
-                    </tr>
-                  </table>
-                  <button class="btn">Baca Deskripsi</button>
-                  <!--  -->
-                </td>
-              </tr>
-            </thead>
+            <tr>
+              <td>
+                <!-- tabel detail -->
+                <h2><strong>Tanah Surga Merah</strong></h2>
+                <table>
+                  <tr>
+                    <th>Jumlah Halaman</th>
+                    <th>Penerbit</th>
+                  </tr>
+                  <tr>
+                    <td>316</td>
+                    <td>Gramedia Pustaka Utama</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Terbit</th>
+                    <th>Bahasa</th>
+                  </tr>
+                  <tr>
+                    <td>24 Nov 2019</td>
+                    <td>Indonesia</td>
+                  </tr>
+                </table>
+                <button class="btn">Baca Deskripsi</button>
+                <!--  -->
+              </td>
+            </tr>
           </table>
         </div>
       </div>
@@ -121,35 +101,32 @@
         <div class="containerbook2">
           <img src="./image/book3.jpg" width="160px" />
           <table>
-            <!-- tabel head cover buku-->
-            <thead>
-              <tr>
-                <td>
-                  <!-- tabel detail -->
-                  <h2><strong>Buku Besar Peminum Kopi</strong></h2>
-                  <table>
-                    <tr>
-                      <th>Jumlah Halaman</th>
-                      <th>Penerbit</th>
-                    </tr>
-                    <tr>
-                      <td>360</td>
-                      <td>Bentang Pustaka</td>
-                    </tr>
-                    <tr>
-                      <th>Tanggal Terbit</th>
-                      <th>Bahasa</th>
-                    </tr>
-                    <tr>
-                      <td>1 Feb 2020</td>
-                      <td>Indonesia</td>
-                    </tr>
-                  </table>
-                  <button class="btn">Baca Deskripsi</button>
-                  <!--  -->
-                </td>
-              </tr>
-            </thead>
+            <tr>
+              <td>
+                <!-- tabel detail -->
+                <h2><strong>Buku Besar Peminum Kopi</strong></h2>
+                <table>
+                  <tr>
+                    <th>Jumlah Halaman</th>
+                    <th>Penerbit</th>
+                  </tr>
+                  <tr>
+                    <td>360</td>
+                    <td>Bentang Pustaka</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Terbit</th>
+                    <th>Bahasa</th>
+                  </tr>
+                  <tr>
+                    <td>1 Feb 2020</td>
+                    <td>Indonesia</td>
+                  </tr>
+                </table>
+                <button class="btn">Baca Deskripsi</button>
+                <!--  -->
+              </td>
+            </tr>
           </table>
         </div>
       </div>
@@ -164,37 +141,34 @@
         <div class="containerbook2">
           <img src="./image/book4.jpg" width="170px" />
           <table>
-            <!-- tabel head cover buku -->
-            <thead>
-              <tr>
-                <td>
-                  <!-- tabel detail -->
-                  <h2>
-                    <strong>Today Ends Tomorrow Comes</strong>
-                  </h2>
-                  <table>
-                    <tr>
-                      <th>Jumlah Halaman</th>
-                      <th>Penerbit</th>
-                    </tr>
-                    <tr>
-                      <td>198</td>
-                      <td>Anak Hebat Indonesia</td>
-                    </tr>
-                    <tr>
-                      <th>Tanggal Terbit</th>
-                      <th>Bahasa</th>
-                    </tr>
-                    <tr>
-                      <td>31 Jul 2023</td>
-                      <td>english</td>
-                    </tr>
-                  </table>
-                  <button class="btn">Baca Deskripsi</button>
-                  <!--  -->
-                </td>
-              </tr>
-            </thead>
+            <tr>
+              <td>
+                <!-- tabel detail -->
+                <h2>
+                  <strong>Today Ends Tomorrow Comes</strong>
+                </h2>
+                <table>
+                  <tr>
+                    <th>Jumlah Halaman</th>
+                    <th>Penerbit</th>
+                  </tr>
+                  <tr>
+                    <td>198</td>
+                    <td>Anak Hebat Indonesia</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Terbit</th>
+                    <th>Bahasa</th>
+                  </tr>
+                  <tr>
+                    <td>31 Jul 2023</td>
+                    <td>english</td>
+                  </tr>
+                </table>
+                <button class="btn">Baca Deskripsi</button>
+                <!--  -->
+              </td>
+            </tr>
           </table>
         </div>
       </div>
@@ -203,35 +177,32 @@
         <div class="containerbook2">
           <img src="./image/book6.jpg" width="170px" />
           <table>
-            <!-- tabel head cover buku -->
-            <thead>
-              <tr>
-                <td>
-                  <!-- tabel detail -->
-                  <h2><strong>Detektif Conan 101</strong></h2>
-                  <table>
-                    <tr>
-                      <th>Jumlah Halaman</th>
-                      <th>Penerbit</th>
-                    </tr>
-                    <tr>
-                      <td>184</td>
-                      <td>Elex Media Komputindo</td>
-                    </tr>
-                    <tr>
-                      <th>Tanggal Terbit</th>
-                      <th>Bahasa</th>
-                    </tr>
-                    <tr>
-                      <td>25 Jan 2023</td>
-                      <td>Indonesia</td>
-                    </tr>
-                  </table>
-                  <button class="btn">Baca Deskripsi</button>
-                  <!--  -->
-                </td>
-              </tr>
-            </thead>
+            <tr>
+              <td>
+                <!-- tabel detail -->
+                <h2><strong>Detektif Conan 101</strong></h2>
+                <table>
+                  <tr>
+                    <th>Jumlah Halaman</th>
+                    <th>Penerbit</th>
+                  </tr>
+                  <tr>
+                    <td>184</td>
+                    <td>Elex Media Komputindo</td>
+                  </tr>
+                  <tr>
+                    <th>Tanggal Terbit</th>
+                    <th>Bahasa</th>
+                  </tr>
+                  <tr>
+                    <td>25 Jan 2023</td>
+                    <td>Indonesia</td>
+                  </tr>
+                </table>
+                <button class="btn">Baca Deskripsi</button>
+                <!--  -->
+              </td>
+            </tr>
           </table>
         </div>
       </div>

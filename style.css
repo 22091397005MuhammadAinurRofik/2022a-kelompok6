@@ -51,14 +51,19 @@ body {
   padding: 0px;
   background-color: #7c66667c;
   background-attachment: fixed;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.centertabel {
+  margin: 0 auto;
+  border: 0px solid black;
 }
 
 .containerform {
-  width: 330px;
-  height: 150px;
+  width: 290px;
+  height: 230px;
   margin: 20px auto;
   padding: 20px;
+  border-radius: 15px;
   background-color: #a34242d0;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -70,6 +75,12 @@ body {
 .judulhalaman {
   padding-left: 20px;
   display: flex;
+}
+
+.btnlogin {
+  background-color: #dfc7c7;
+  width: 180px;
+  height: 25px;
 }
 
 .btn {
@@ -90,15 +101,14 @@ body {
   left: 0;
   width: 1360px;
   height: 700px;
-  color: white;
-  text-align: left;
+  color: rgb(255, 255, 255);
+  align-items: center;
   padding: 230px;
   box-sizing: border-box;
 }
 
 table {
   border-collapse: collapse;
-  width: 350px;
   margin: 10px 9px 30px;
 }
 
