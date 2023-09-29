@@ -46,13 +46,6 @@ body {
   border-radius: 10px;
 }
 
-.containerhalaman {
-  width: 0px;
-  padding: 0px;
-  background-color: #7c66667c;
-  background-attachment: fixed;
-}
-
 .centertabel {
   margin: 0 auto;
   border: 0px solid black;
@@ -74,7 +67,6 @@ body {
 
 .judulhalaman {
   padding-left: 20px;
-  display: flex;
 }
 
 .btnlogin {
