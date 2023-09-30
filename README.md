@@ -195,9 +195,13 @@ REQ-2:
 <List any operating principles about the product, such as which individuals or roles can perform which functions under specific circumstances. These are not functional requirements in themselves, but they may imply certain functional requirements to enforce the rules.>
 
 6.	Other Requirements
+
 <Define any other requirements not covered elsewhere in the SRS. This might include database requirements, internationalization requirements, legal requirements, reuse objectives for the project, and so on. Add any new sections that are pertinent to the project.>
+
 Appendix A: Glossary
+
 <Define all the terms necessary to properly interpret the SRS, including acronyms and abbreviations. You may wish to build a separate glossary that spans multiple projects or the entire organization, and just include terms specific to a single project in each SRS.>
+
 Appendix B: Analysis Models
 
 Flowchart
@@ -214,6 +218,7 @@ Use Case Diagram
 
 
 Appendix C: To Be Determined List
+
 Untuk daftar yang akan ditentukan ada beberapa yang akan dikembangkan, yaitu:
 1.	Kami akan mengembangkan website OnBook ini dengan menambahkan beberapa fitur untuk lebih mempermudah pengguna.
 2.	Kami akan memperbaiki tampilan pada website agar lebih menarik.
