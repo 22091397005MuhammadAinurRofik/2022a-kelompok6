@@ -11,9 +11,25 @@ header {
   z-index: 9999;
 }
 
-.navbar {
+nav {
   display: flex;
   padding-right: 50px;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 16px;
+}
+
+a:hover {
+  color: #a34242d0;
 }
 
 body {
@@ -80,7 +96,6 @@ body {
 }
 
 .footer {
-  width: 1300px;
   padding: 50px;
   margin-top: 40px;
   background-color: #7c66667c;
@@ -91,7 +106,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1360px;
+  width: 100%;
   height: 700px;
   color: rgb(255, 255, 255);
   align-items: center;
