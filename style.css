@@ -98,6 +98,7 @@ body {
 .footer {
   padding: 50px;
   margin-top: 40px;
+  width: 1248px;
   background-color: #7c66667c;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
@@ -106,7 +107,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 1348px;
   height: 700px;
   color: rgb(255, 255, 255);
   align-items: center;
