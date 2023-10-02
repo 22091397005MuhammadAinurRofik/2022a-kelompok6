@@ -146,7 +146,9 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
 3.4 Communications Interfaces
 
 3.5 Desain Graphical User Interface
+
 \*Penjelasan HTML
+
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
 bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
@@ -345,9 +347,7 @@ Pada selector header berisi atribut :
 3. padding: 6px;: Properti ini menambahkan jarak padding sebanyak 6 piksel di sekeliling elemen-elemen <td>. Padding adalah ruang kosong antara batas elemen dan kontennya.
 4. text-align: left;: Properti ini mengatur teks dalam elemen-elemen <td> untuk dipojok kiri.
 
-> > > > > > > 3d406e476259c7ec6a08bf7577371f357b08c364
-
-4. System Features
+5. System Features
 
 4.1 System Feature 1
 
