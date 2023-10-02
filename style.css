@@ -138,3 +138,12 @@ td {
   padding: 6px;
   text-align: left;
 }
+
+.panjangtd {
+  width: 1000px;
+}
+
+.tombol {
+  display: flex;
+  justify-content: space-between;
+}
