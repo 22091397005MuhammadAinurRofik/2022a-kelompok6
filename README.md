@@ -166,31 +166,37 @@ Pada selector header berisi atribut :
 10. z-index: 9999;: Properti ini mengatur urutan tumpukan elemen (z-index) untuk header. Dengan nilai 9999, header akan tumpang tindih di atas elemen-elemen lain yang memiliki z-index lebih rendah.
 
  ![halaman utama](./imgsrs/nav.png) 
+ 
 *Selektor ini digunakan untuk mengatur letak navigasi pada tags <nav>, didalam nya terdapat atribut:
 1. display: flex;: Properti ini mengatur elemen-elemen yang memiliki kelas .navbar sebagai kontainer tampilan fleksibel. Ini memungkinkan Anda untuk mengatur elemen-elemen anak di dalamnya dengan lebih fleksibel menggunakan CSS properti justify-content, align-items, dan lainnya yang berkaitan dengan fleksibilitas. 
 2. padding-right: 50px;: Properti ini menambahkan jarak padding sebanyak 50 piksel di sebelah kanan elemen-elemen yang memiliki kelas .navbar. Ini dapat memberikan ruang kosong di sebelah kanan elemen-elemen tersebut.
 
  ![halaman utama](./imgsrs/body.png) 
+ 
 *Selektor ini digunakan untuk mengatur beberapa tampilan untuk halaman web, didalam nya berisi atribut:
 1. font-family: Arial, sans-serif;: Properti ini mengatur jenis font yang akan digunakan untuk teks dalam elemen <body>. 
 2. margin: 0;: Properti ini menghapus margin bawaan (ruang putih) yang ada pada elemen <body>. Biasanya, browser memberikan margin default untuk elemen <body>, dan aturan ini mengaturnya menjadi nol, sehingga halaman dimulai dari sudut kiri atas viewport tanpa ruang putih tambahan.
 3. background-color: Properti ini mengatur warna latar belakang elemen <body>. 
 
  ![halaman utama](./imgsrs/ul.png) 
+ 
 1. list-style-type: none;: Properti ini menghilangkan tanda listing (bullet atau numbering) yang biasanya muncul di depan elemen-elemen daftar. Ini umumnya digunakan untuk mengubah daftar menjadi daftar tanpa tanda.
 2. display: flex;: Properti ini mengubah elemen <ul> menjadi sebuah kontainer fleksibel, yang memungkinkan pengaturan item daftar secara horizontal (sejajar) atau vertikal (bertumpuk), tergantung pada pengaturan kontainer. Ini sangat berguna untuk membuat menu navigasi horisontal di navbar.
 3. gap: 30px;: Properti ini menentukan jarak (spacing) antara item daftar dalam kontainer fleksibel. Nilai 30px menentukan jarak sebesar 30 piksel antara item-item tersebut. Ini dapat membantu menciptakan ruang antara tautan navigasi dalam navbar Anda.
 
  ![halaman utama](./imgsrs/a.png) 
+ 
 1. text-decoration: none;: Properti ini menghilangkan dekorasi tautan bawaan seperti garis bawah (underline) atau garis tepi (border) yang biasanya terlihat pada tautan. Dalam hal ini, itu menghapus garis bawah dari tautan, sehingga tautan akan terlihat sebagai teks biasa tanpa dekorasi tambahan.
 2. color: #000000;: Properti ini mengatur warna teks tautan menjadi hitam (#000000). Anda dapat mengganti nilai warna sesuai dengan preferensi desain Anda.
 3. font-size: 16px;: Properti ini mengatur ukuran font untuk teks tautan menjadi 16 piksel. Anda dapat mengubah ukuran font sesuai dengan preferensi desain Anda.
 
  ![halaman utama](./imgsrs/ahover.png) 
+ 
 1. a:hover: Ini adalah pseudo-class CSS yang digunakan untuk menentukan tampilan tautan saat kursor berada di atasnya.
 2. color: Properti ini mengubah warna teks tautan saat kursor berada di atas tautan.
 
  ![halaman utama](./imgsrs/containerbook.png) 
+ 
 *Selektor ini digunakan untuk mengatur tampilan pada container buku bagian pertama dengan menggunakan atribut:
 1. width: 550px;: Properti ini mengatur lebar elemen .containerbook menjadi 550 piksel.
 2. height: 300px;: Properti ini mengatur tinggi elemen .containerbook menjadi 300 piksel.
@@ -200,6 +206,7 @@ Pada selector header berisi atribut :
 6. box-shadow: Properti ini menambahkan efek bayangan lembut ke elemen .containerbook. Bayangan ini memberikan elemen efek tiga dimensi.
 
  ![halaman utama](./imgsrs/containerbook2.png) 
+ 
 *Selektor ini digunakan untuk mengatur tampilan pada container buku bagian kedua dengan menggunakan atribut:
 1. align-items: center;: Properti ini mengatur penempatan elemen-elemen anak secara vertikal di tengah elemen yang memiliki kelas .containerbook2.
 2. width: 515px;: Properti ini mengatur lebar elemen .containerbook2 menjadi 515 piksel.
@@ -211,11 +218,13 @@ Pada selector header berisi atribut :
 8. border-radius: 10px;: Properti ini memberikan elemen sudut lengkung dengan radius 10 piksel, sehingga elemen memiliki tepi yang lembut dan tidak tajam.
 
  ![halaman utama](./imgsrs/centertabel.png) 
+ 
 *Selektor ini digunakan untuk mengatur elemen tabel agar terletak ditengah dengan menggunakan atribut:
 1. margin: 0 auto;: Properti ini mengatur elemen dengan class .centertabel menjadi berada di tengah secara horizontal dengan menggunakan margin otomatis. Ini umumnya digunakan untuk mengatur tata letak tengah untuk elemen-elemen yang memiliki lebar yang telah ditentukan.
 2. border: 0px solid black;: Properti ini mengatur elemen dengan class .centertabel untuk memiliki batas (border) dengan ketebalan 0 piksel, sehingga tidak akan ada garis batas yang terlihat.
 
  ![halaman utama](./imgsrs/containerform.png) 
+ 
 *Selektor ini digunakan untuk mengatur bentuk latar belakang pada form login dengan menggunakan atribut:
 1. width: 290px;: Properti ini mengatur lebar elemen dengan kelas .containerform menjadi 290 piksel.
 2. height: 230px;: Properti ini mengatur tinggi elemen dengan kelas .containerform menjadi 230 piksel.
@@ -226,12 +235,14 @@ Pada selector header berisi atribut :
 7. box-shadow: Properti ini menambahkan efek bayangan lembut ke elemen .containerform. Bayangan ini memberikan elemen efek tiga dimensi.
 
  ![halaman utama](./imgsrs/halamanbuku.png) 
+ 
 *Selektor ini digunakan untuk mengatur letak susunan buku pada halaman buku dengan menggunakan atribut:
 1. display: flex;: Properti ini mengatur elemen-elemen dengan kelas .halamanbuku sebagai kontainer tampilan fleksibel (flex container). Ini memungkinkan Anda untuk mengatur elemen-elemen anak di dalamnya dengan lebih fleksibel menggunakan properti seperti justify-content, align-items, dan lainnya yang berkaitan dengan fleksibilitas.
 2. flex-wrap: wrap;: Properti ini digunakan bersama dengan display: flex; dan mengatur elemen-elemen anak agar dapat melintasi baris (wrap) jika ruang horizontal tidak mencukupi.
 3. gap: 15px;: Properti ini menambahkan jarak (spacing) sebesar 15 piksel antara elemen-elemen anak di dalam kontainer .halamanbuku
 
  ![halaman utama](./imgsrs/judulbuku.png) 
+ 
 *Selektor ini digunakan untuk mengatur letak judul halaman pada halaman buku dengan menggunakan atribut:
 1. display: flex;: Properti ini mengubah elemen yang memiliki kelas .judulhalaman menjadi sebuah kontainer fleksibel
 2. justify-content: space-between;: Properti ini digunakan untuk mengatur cara elemen-elemen di dalam kontainer flex ditempatkan secara horizontal.
@@ -241,16 +252,19 @@ Pada selector header berisi atribut :
 6. padding-bottom: 20px;: Properti ini menambahkan jarak padding sebanyak 20 piksel di sisi bawah elemen.
 
  ![halaman utama](./imgsrs/btnlogin.png) 
+ 
 *Selektor ini digunakan untuk mengatur bentuk button login dengan menggunakan atribut:
 1. background-color: Properti ini mengatur warna latar belakang elemen dengan kelas .btnlogin. 
 2. width: 180px;: Properti ini mengatur lebar elemen .btnlogin menjadi 180 piksel.
 3. height: 25px;: Properti ini mengatur tinggi elemen .btnlogin menjadi 25 piksel.
 
  ![halaman utama](./imgsrs/btn.png) 
+ 
 *Selektor ini digunakan untuk mengatur bentuk button baca deskripsi yang berada didalam container buku dengan menggunakan atribut:
 1. background-color: Properti ini mengatur warna latar belakang elemen dengan kelas .btn.
 
  ![halaman utama](./imgsrs/footer.png) 
+ 
 *Selektor ini digunakan untuk mendefinisikan elemen yang digunakan dibagian akhir web, dengan menggunakan atribut:
 1. width: 1248px;: Properti ini mengatur lebar elemen .footer menjadi 1248 piksel.
 2. padding: 50px;: Properti ini menambahkan jarak padding sebanyak 50 piksel di sekeliling elemen .footer. Ini akan memberikan elemen footer lebih banyak ruang kosong di sekeliling kontennya.
@@ -259,6 +273,7 @@ Pada selector header berisi atribut :
 5. box-shadow: Properti ini menambahkan efek bayangan lembut ke elemen .footer. Bayangan ini memberikan elemen efek tiga dimensi.
 
  ![halaman utama](./imgsrs/overlay.png) 
+ 
 *Selektor ini digunakan untuk membuat lapisan latar belakang yang menutupi seluruh halaman dengan menggunakan atribut:
 1. position: absolute;: Properti ini mengatur elemen-elemen dengan kelas .overlay dalam posisi absolut, yang berarti elemen ini ditempatkan sesuai dengan elemen yang terdekat dengan posisi relatif.
 2. top: 0;: Properti ini mengatur elemen .overlay untuk berada di bagian atas elemen yang memiliki posisi relatif terdekat.
@@ -271,17 +286,20 @@ Pada selector header berisi atribut :
 9. box-sizing: border-box;: Properti ini mengubah model kotak elemen .overlay menjadi model kotak "border-box."
 
  ![halaman utama](./imgsrs/table.png) 
+ 
 *Selektor tabel digunakan untuk mengatur tata letak tabel pada web, didalam nya menggunakan atribut:
 1. border-collapse: collapse;: Properti ini mengatur perilaku tabel untuk menggunakan model penyatuan batas (collapsed borders). Ini berarti batas sel dalam tabel akan terlihat sebagai 2. satu garis saja, dan tidak akan ada jarak antara sel.
 margin: 10px 9px 30px;: Properti ini mengatur jarak margin elemen-elemen tabel.
 
  ![halaman utama](./imgsrs/th.png) 
+ 
 *Selektor ini digunakan untuk mengatur tampilan header tabel pada web, didalam nya menggunakan atribut:
 1. border: 0px solid #000000;: Properti ini mengatur elemen-elemen <th> untuk tidak memiliki batas (border) dan ketebalan batasnya adalah 0 piksel.
 2. padding: 6px;: Properti ini menambahkan jarak padding sebanyak 6 piksel di sekeliling elemen-elemen <th>. Padding adalah ruang kosong antara batas elemen dan kontennya.
 3. text-align: left;: Properti ini mengatur teks dalam elemen-elemen <th> untuk dipojok kiri.
 
  ![halaman utama](./imgsrs/td.png) 
+ 
 *Selektor tabel digunakan untuk mengatur tampilan kolom data tabel pad web, didalam nya menggunakan atribut:
 1. border: 0px solid #000000;: Properti ini mengatur elemen-elemen <td> untuk tidak memiliki batas (border) dan ketebalan batasnya adalah 0 piksel.
 2. font-size: small;: Properti ini mengatur ukuran font elemen-elemen <td> menjadi ukuran font "small."
@@ -323,9 +341,13 @@ Appendix A: Glossary
 Appendix B: Analysis Models
 
 Flowchart
+
+
 ![flowchart](./image/flowchart.jpg)
 
 Use Case Diagram
+
+
 ![flowchart](./image/usecase.jpg)
 
 Appendix C: To Be Determined List
