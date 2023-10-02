@@ -124,25 +124,25 @@ Penjelasan HTML
 ![halaman utama](./imgsrs/halaman1.png) 
 bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
 Pada header tersebut menggunakan tags 
-<h1> untuk membuat nama web 
-<span> untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
-<nav> digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
-<ul> digunakan untuk membuat daftar tak-terurut dari navigasi (unordered list). 
-<a> digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
+h1 untuk membuat nama web 
+span untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
+nav digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
+ul digunakan untuk membuat daftar tak-terurut dari navigasi (unordered list). 
+a digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
  
 
 Pada bagian halaman Login menggunakan tags
-<div> untuk membuat container box pada halaman web.
-<Img> untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
-<fieldset> digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
-<legend> digunakan sebagai judul atau keterangan untuk elemen formulir yang ada dalam <fieldset>.
-<tabel> untuk membuat tabel pada halaman web yang dimana dalam tabel tersebut digunakan untuk menampilkan dan Menyusun dalam bentuk baris dan kolom.
-<tr> digunakan untuk mendefinisikan baris dalam tabel.
-<th> digunakan untuk mendefinisikan sel header dalam tabel. Sel header digunakan untuk memberikan informasi tambahan tentang konten di dalam sel-sel yang terkait di baris atau kolom yang sama.
-<td> digunakan untuk mendefinisikan sela tau elemen data dalam tabel.
-<button> digunakan untuk membuat tombol yang dapat digunakan oleh pengguna, dapat berupa pengiriman formulir atau pun tidakan lainnya yang ingin dilakukan dalam halaman web.
-<h2> digunakan untuk menandai judul dengan ketebalan tingkat 2.
-<h3> digunakan untuk menandai judul dengan ketebalan tingkat 3.
+div untuk membuat container box pada halaman web.
+Img untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
+fieldset digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
+legend digunakan sebagai judul atau keterangan untuk elemen formulir yang ada dalam <fieldset>.
+tabel untuk membuat tabel pada halaman web yang dimana dalam tabel tersebut digunakan untuk menampilkan dan Menyusun dalam bentuk baris dan kolom.
+tr digunakan untuk mendefinisikan baris dalam tabel.
+th digunakan untuk mendefinisikan sel header dalam tabel. Sel header digunakan untuk memberikan informasi tambahan tentang konten di dalam sel-sel yang terkait di baris atau kolom yang sama.
+td digunakan untuk mendefinisikan sela tau elemen data dalam tabel.
+button digunakan untuk membuat tombol yang dapat digunakan oleh pengguna, dapat berupa pengiriman formulir atau pun tidakan lainnya yang ingin dilakukan dalam halaman web.
+h2 digunakan untuk menandai judul dengan ketebalan tingkat 2.
+h3 digunakan untuk menandai judul dengan ketebalan tingkat 3.
 
 
 
