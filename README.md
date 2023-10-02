@@ -115,18 +115,22 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
       1. Beranda: Pada halaman beranda ini, terdapat menu login untuk pengguna
       2. Rekomendasi: Halaman ini menampilkan beberapa buku rekomendasi yang disarankan kepada pengguna
       3. Popular: Halaman ini akan menampilkan buku-buku yang sedang popular
+
 3.2 Hardware Interfaces
    Website Onbook didukung pada SmartPhone maupun PC yang terhubung dengan jaringan internet. Perangkat keras lainya yang mendukung pengaksesan website OnBook dapat dijelaskan seperti berikut:
       1. SmartPhone/PC : Untuk mengakses website OnBook
       2. Monitor : Menampilkan halaman website OnBook
       3. Keyboard : Untuk memasukkan input ke website OnBook
       4. Mouse : Untuk mempermudah navigasi pengguna
+
 3.3 Software Interfaces
    Kebutuhan antarmuka perangkat lunak sangat dibutuhkan untuk membuat websie OnBook. Berikut adalah beberapa hal yag dibutuhkan untuk membuat website OnBook:
       1. HTML: HTML digunakan untuk mendefinisikan struktur dasar halaman web, menyusun teks, paragraf, daftar, dan elemen-elemen teks lainnya, serta untuk menghubungkan halaman web dan membentuk struktur navigasi.
       2. CSS : CSS digunakan untuk mengubah tampilan elemen-elemen HTML, termasuk warna latar belakang, teks, font, dan border.
+
 3.4 Communications Interfaces
    Website OnBok membutuhkan laptop, PC, maupun SmartPhone yang tersambung ke internet.
+
 3.5 Desain Graphical User Interface
 
 \*Penjelasan HTML
