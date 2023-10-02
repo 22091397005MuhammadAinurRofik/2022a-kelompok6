@@ -40,40 +40,13 @@ Revision History ii
    2.6 User Documentation 2
    2.7 Assumptions and Dependencies 3
 3. External Interface Requirements 3
-   3.1 User Interfaces
-   Antarmuka pengguna yang ada pada website OnBook adalah sebagai berikut:
-   1. Beranda: Pada halaman beranda ini, terdapat menu login untuk pengguna
-   2. Rekomendasi: Halaman ini menampilkan beberapa buku rekomendasi yang disarankan kepada pengguna
-   3. Popular: Halaman ini akan menampilkan buku-buku yang sedang popular
-      3.2 Hardware Interfaces
-      Website Onbook didukung pada SmartPhone maupun PC yang terhubung dengan jaringan internet. Perangkat keras lainya yang mendukung pengaksesan website OnBook dapat dijelaskan seperti berikut:
-   4. SmartPhone/PC : Untuk mengakses website OnBook
-   5. Monitor : Menampilkan halaman website OnBook
-   6. Keyboard : Untuk memasukkan input ke website OnBook
-   7. Mouse : Untuk mempermudah navigasi pengguna
-      3.3 Software Interfaces
-      Kebutuhan antarmuka perangkat lunak sangat dibutuhkan untuk membuat websie OnBook. Berikut adalah beberapa hal yag dibutuhkan untuk membuat website OnBook:
-   8. HTML: HTML digunakan untuk mendefinisikan struktur dasar halaman web, menyusun teks, paragraf, daftar, dan elemen-elemen teks lainnya, serta untuk menghubungkan halaman web dan membentuk struktur navigasi.
-   9. CSS : CSS digunakan untuk mengubah tampilan elemen-elemen HTML, termasuk warna latar belakang, teks, font, dan border.
-      3.4 Communications Interfaces
-      Website OnBok membutuhkan laptop, PC, maupun SmartPhone yang tersambung ke internet.
+   3.1 User Interfaces 3
+   3.2 Hardware Interfaces 3
+   3.3 Software Interfaces 3
+   3.4 Communications Interfaces 3
 4. System Features 4
-   4.1 Halaman Beranda
-   4.1.1 Description and Priority
-   Halaman beranda merupakan fitur utama dalam website OnBook. Pada halaman ini, pengguna diminta untuk login ke dalam website agar bisa melihat ulasan buku lebih lanjut.
-   4.1.2 Stimulus/Response Sequences
-   Stimulus = Pengguna akan melihat halaman beranda yang menampilkan kolom untuk login
-   Respon = Pengguna melakukan login
-   4.1.3 Functional Requirements
-   Fitur Pendaftaran/Login. Website OnBook ini harus memiliki fitur pendaftaran ataupun login yang memungkinkan pengguna untuk mengakses akun mereka atau membuat akun baru.
-   4.2 Halaman Rekomendasi
-   4.2.1 Description and Priority
-   Halaman rekomendasi adalah halaman yang menyajikan buku-buku yang direkomendasikan kepada pengguna. Halaman ini bertujuan untuk memberikan pengalaman yang personal dan relevan kepada pengguna, memungkinkan mereka menemukan buku-buku baru yang mungkin menarik dan sesuai dengan minat mereka.
-   4.2.2 Stimulus/Response Sequences
-   Stimulus = Pengguna akan melihat beberapa buku rekomendasi yang sedang best seller
-   Respon = Pengguna melihat informasi mengenai buku tersebut dan melihat ulasan
-   4.2.3 Functional Requirements
-   Fitur Ulasan. Fitur ulasan pada OnBook memungkinkan pengguna untuk memberikan ulasan dan peringkat buku yang telah mereka baca. Ulasan ini dapat berisi pendapat, komentar, atau tanggapan pengguna terhadap buku tertentu
+   4.1 Halaman Beranda 4
+   4.2 Halaman Rekomendasi 4
 5. Other Nonfunctional Requirements 4
    5.1 Performance Requirements 4
    5.2 Safety Requirements 5
@@ -138,13 +111,23 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
 3. External Interface Requirements
 
 3.1 User Interfaces
+Antarmuka pengguna yang ada pada website OnBook adalah sebagai berikut:
+   1. Beranda: Pada halaman beranda ini, terdapat menu login untuk pengguna
+   2. Rekomendasi: Halaman ini menampilkan beberapa buku rekomendasi yang disarankan kepada pengguna
+   3. Popular: Halaman ini akan menampilkan buku-buku yang sedang popular
 
 3.2 Hardware Interfaces
-
+Website Onbook didukung pada SmartPhone maupun PC yang terhubung dengan jaringan internet. Perangkat keras lainya yang mendukung pengaksesan website OnBook dapat dijelaskan seperti berikut:
+   1. SmartPhone/PC : Untuk mengakses website OnBook
+   2. Monitor : Menampilkan halaman website OnBook
+   3. Keyboard : Untuk memasukkan input ke website OnBook
+   4. Mouse : Untuk mempermudah navigasi pengguna
 3.3 Software Interfaces
-
+Kebutuhan antarmuka perangkat lunak sangat dibutuhkan untuk membuat websie OnBook. Berikut adalah beberapa hal yag dibutuhkan untuk membuat website OnBook:
+   8. HTML: HTML digunakan untuk mendefinisikan struktur dasar halaman web, menyusun teks, paragraf, daftar, dan elemen-elemen teks lainnya, serta untuk menghubungkan halaman web dan membentuk struktur navigasi.
+   9. CSS : CSS digunakan untuk mengubah tampilan elemen-elemen HTML, termasuk warna latar belakang, teks, font, dan border.
 3.4 Communications Interfaces
-
+Website OnBok membutuhkan laptop, PC, maupun SmartPhone yang tersambung ke internet.
 3.5 Desain Graphical User Interface
 
 \*Penjelasan HTML
@@ -347,18 +330,26 @@ Pada selector header berisi atribut :
 3. padding: 6px;: Properti ini menambahkan jarak padding sebanyak 6 piksel di sekeliling elemen-elemen <td>. Padding adalah ruang kosong antara batas elemen dan kontennya.
 4. text-align: left;: Properti ini mengatur teks dalam elemen-elemen <td> untuk dipojok kiri.
 
-5. System Features
+4. System Features
 
-4.1 System Feature 1
-
-4.1.1 Description and Priority
-
-4.1.2 Stimulus/Response Sequences
-
-4.1.3 Functional Requirements
-
-4.2 System Feature 2 (and so on)
-
+4.1 Halaman Beranda
+   4.1.1 Description and Priority
+   Halaman beranda merupakan fitur utama dalam website OnBook. Pada halaman ini, pengguna diminta untuk login ke dalam website agar bisa melihat ulasan buku lebih lanjut.   
+   4.1.2 Stimulus/Response Sequences
+   Stimulus = Pengguna akan melihat halaman beranda yang menampilkan kolom untuk login
+   Respon = Pengguna melakukan login
+   4.1.3 Functional Requirements
+   Fitur Pendaftaran/Login. Website OnBook ini harus memiliki fitur pendaftaran ataupun login yang memungkinkan pengguna untuk mengakses akun mereka atau membuat akun baru.
+4.2 Halaman Rekomendasi
+   4.2.1 Description and Priority
+   Halaman rekomendasi adalah halaman yang menyajikan buku-buku yang direkomendasikan kepada pengguna. Halaman ini bertujuan untuk memberikan pengalaman yang personal dan relevan kepada pengguna, memungkinkan mereka menemukan buku-buku baru yang mungkin menarik dan sesuai dengan minat mereka.
+   4.2.2 Stimulus/Response Sequences
+   Stimulus = Pengguna akan melihat beberapa buku rekomendasi yang sedang best seller
+   Respon = Pengguna melihat informasi mengenai buku tersebut dan membaca ulasan
+   4.2.3 Functional Requirements
+   Fitur Ulasan. Fitur ulasan pada OnBook memungkinkan pengguna untuk memberikan ulasan dan peringkat buku yang telah mereka baca. Ulasan ini dapat berisi pendapat, komentar, atau tanggapan pengguna terhadap buku tertentu
+4.3 Halaman Popular
+   4.3.1 
 5. Other Nonfunctional Requirements
 
 5.1 Performance Requirements
