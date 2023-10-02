@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #a34242d0;
+  color: #c72323;
 }
 
 body {
@@ -39,7 +39,6 @@ body {
 }
 
 .containerbook {
-  align-items: center;
   width: 550px;
   height: 300px;
   margin: 0px auto;
@@ -84,6 +83,9 @@ body {
 }
 
 .judulhalaman {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
   padding-left: 20px;
   padding-top: 100px;
   padding-bottom: 20px;
