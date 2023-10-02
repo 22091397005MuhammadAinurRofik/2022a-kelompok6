@@ -124,25 +124,25 @@ Penjelasan HTML
 ![halaman utama](./imgsrs/halaman1.png) 
 bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
 Pada header tersebut menggunakan tags 
-h1 untuk membuat nama web 
-span untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
-nav digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
-ul digunakan untuk membuat daftar tak-terurut dari navigasi (unordered list). 
-a digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
+**h1** untuk membuat nama web 
+**span** untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
+**nav** digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
+**ul** digunakan untuk membuat daftar tak-terurut dari navigasi (unordered list). 
+**a** digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
  
 
 Pada bagian halaman Login menggunakan tags
-div untuk membuat container box pada halaman web.
-Img untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
-fieldset digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
-legend digunakan sebagai judul atau keterangan untuk elemen formulir yang ada dalam <fieldset>.
-tabel untuk membuat tabel pada halaman web yang dimana dalam tabel tersebut digunakan untuk menampilkan dan Menyusun dalam bentuk baris dan kolom.
-tr digunakan untuk mendefinisikan baris dalam tabel.
-th digunakan untuk mendefinisikan sel header dalam tabel. Sel header digunakan untuk memberikan informasi tambahan tentang konten di dalam sel-sel yang terkait di baris atau kolom yang sama.
-td digunakan untuk mendefinisikan sela tau elemen data dalam tabel.
-button digunakan untuk membuat tombol yang dapat digunakan oleh pengguna, dapat berupa pengiriman formulir atau pun tidakan lainnya yang ingin dilakukan dalam halaman web.
-h2 digunakan untuk menandai judul dengan ketebalan tingkat 2.
-h3 digunakan untuk menandai judul dengan ketebalan tingkat 3.
+**div** untuk membuat container box pada halaman web.
+**Img** untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
+**fieldset** digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
+**legend** digunakan sebagai judul atau keterangan untuk elemen formulir yang ada dalam <fieldset>.
+**tabel** untuk membuat tabel pada halaman web yang dimana dalam tabel tersebut digunakan untuk menampilkan dan Menyusun dalam bentuk baris dan kolom.
+**tr** digunakan untuk mendefinisikan baris dalam tabel.
+**th** digunakan untuk mendefinisikan sel header dalam tabel. Sel header digunakan untuk memberikan informasi tambahan tentang konten di dalam sel-sel yang terkait di baris atau kolom yang sama.
+**td** digunakan untuk mendefinisikan sela tau elemen data dalam tabel.
+**button** digunakan untuk membuat tombol yang dapat digunakan oleh pengguna, dapat berupa pengiriman formulir atau pun tidakan lainnya yang ingin dilakukan dalam halaman web.
+**h2** digunakan untuk menandai judul dengan ketebalan tingkat 2.
+**h3** digunakan untuk menandai judul dengan ketebalan tingkat 3.
 
 
 
@@ -151,16 +151,16 @@ h3 digunakan untuk menandai judul dengan ketebalan tingkat 3.
 Penjelasan CSS
  ![halaman utama](./imgsrs/header.png)  
 Pada selector header berisi atribut :
-background-color: Properti ini mengatur warna latar belakang header.
-color: Properti ini mengatur warna teks dalam header.
-padding-left: 30px;: Properti ini menambahkan jarak padding 30 piksel di sisi kiri elemen header. Ini dapat memberikan ruang kosong di sebelah kiri konten dalam header.
-width: 100%;: Properti ini membuat header mengambil seluruh lebar halaman, sehingga header akan memenuhi lebar layar sepenuhnya.
-display: flex;: Ini mengatur header sebagai kontainer tampilan fleksibel, yang memungkinkan Anda untuk mengatur elemen-elemen anak di dalamnya dengan lebih fleksibel menggunakan CSS properti justify-content dan align-items.
-position: fixed;: Ini membuat header menjadi elemen yang ditempel di bagian atas jendela browser saat pengguna menggulir ke bawah. Dengan kata lain, header akan tetap terlihat bahkan ketika menggulir halaman.
-justify-content: space-between;: Ini mengatur elemen-elemen anak di dalam header untuk diberi jarak di antara mereka sehingga ada ruang kosong di sekitar elemen-elemen header. Elemen-elemen anak akan terpisah secara merata dengan elemen-elemen di sisi kiri dan kanan header.
-align-items: center;: Properti ini memusatkan elemen-elemen anak vertikal di dalam header. Ini memastikan elemen-elemen anak berada di tengah header secara vertikal.
-box-shadow: Properti ini menambahkan bayangan (shadow) halus pada header. Bayangan ini memberikan efek tiga dimensi pada elemen header.
-z-index: 9999;: Properti ini mengatur urutan tumpukan elemen (z-index) untuk header. Dengan nilai 9999, header akan tumpang tindih di atas elemen-elemen lain yang memiliki z-index lebih rendah.
+1. background-color: Properti ini mengatur warna latar belakang header.
+2. color: Properti ini mengatur warna teks dalam header.
+3. padding-left: 30px;: Properti ini menambahkan jarak padding 30 piksel di sisi kiri elemen header. Ini dapat memberikan ruang kosong di sebelah kiri konten dalam header.
+4. width: 100%;: Properti ini membuat header mengambil seluruh lebar halaman, sehingga header akan memenuhi lebar layar sepenuhnya.
+5. display: flex;: Ini mengatur header sebagai kontainer tampilan fleksibel, yang memungkinkan Anda untuk mengatur elemen-elemen anak di dalamnya dengan lebih fleksibel menggunakan CSS properti justify-content dan align-items.
+6. position: fixed;: Ini membuat header menjadi elemen yang ditempel di bagian atas jendela browser saat pengguna menggulir ke bawah. Dengan kata lain, header akan tetap terlihat bahkan ketika menggulir halaman.
+7. justify-content: space-between;: Ini mengatur elemen-elemen anak di dalam header untuk diberi jarak di antara mereka sehingga ada ruang kosong di sekitar elemen-elemen header. Elemen-elemen anak akan terpisah secara merata dengan elemen-elemen di sisi kiri dan kanan header.
+8. align-items: center;: Properti ini memusatkan elemen-elemen anak vertikal di dalam header. Ini memastikan elemen-elemen anak berada di tengah header secara vertikal.
+9. box-shadow: Properti ini menambahkan bayangan (shadow) halus pada header. Bayangan ini memberikan efek tiga dimensi pada elemen header.
+10. z-index: 9999;: Properti ini mengatur urutan tumpukan elemen (z-index) untuk header. Dengan nilai 9999, header akan tumpang tindih di atas elemen-elemen lain yang memiliki z-index lebih rendah.
 
  ![halaman utama](./imgsrs/nav.png) 
 Selektor ini digunakan untuk mengatur letak navigasi pada tags <nav>, didalam nya terdapat atribut:
