@@ -123,7 +123,7 @@ Penjelasan HTML
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png) 
 bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
-Pada header tersebut menggunakan tags: 
+Pada header tersebut menggunakan tags 
 <h1> untuk membuat nama web 
 <span> untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
 <nav> digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
@@ -131,7 +131,7 @@ Pada header tersebut menggunakan tags:
 <a> digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
  
 
-Pada bagian halaman Login menggunakan tags:
+Pada bagian halaman Login menggunakan tags
 <div> untuk membuat container box pada halaman web.
 <Img> untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
 <fieldset> digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
