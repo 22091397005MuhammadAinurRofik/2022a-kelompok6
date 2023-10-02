@@ -336,23 +336,33 @@ Pada selector header berisi atribut :
 4. System Features
 
 4.1 Halaman Beranda
-   4.1.1 Description and Priority
+   
+4.1.1 Description and Priority
    Halaman beranda merupakan fitur utama dalam website OnBook. Pada halaman ini, pengguna diminta untuk login ke dalam website agar bisa melihat ulasan buku lebih lanjut.   
-   4.1.2 Stimulus/Response Sequences
+   
+4.1.2 Stimulus/Response Sequences
    Stimulus = Pengguna akan melihat halaman beranda yang menampilkan kolom untuk login
    Respon = Pengguna melakukan login
-   4.1.3 Functional Requirements
+   
+4.1.3 Functional Requirements
    Fitur Pendaftaran/Login. Website OnBook ini harus memiliki fitur pendaftaran ataupun login yang memungkinkan pengguna untuk mengakses akun mereka atau membuat akun baru.
+
 4.2 Halaman Rekomendasi
-   4.2.1 Description and Priority
+   
+4.2.1 Description and Priority
    Halaman rekomendasi adalah halaman yang menyajikan buku-buku yang direkomendasikan kepada pengguna. Halaman ini bertujuan untuk memberikan pengalaman yang personal dan relevan kepada pengguna, memungkinkan mereka menemukan buku-buku baru yang mungkin menarik dan sesuai dengan minat mereka.
-   4.2.2 Stimulus/Response Sequences
+   
+4.2.2 Stimulus/Response Sequences
    Stimulus = Pengguna akan melihat beberapa buku rekomendasi yang sedang best seller
    Respon = Pengguna melihat informasi mengenai buku tersebut dan membaca ulasan
-   4.2.3 Functional Requirements
+   
+4.2.3 Functional Requirements
    Fitur Ulasan. Fitur ulasan pada OnBook memungkinkan pengguna untuk memberikan ulasan dan peringkat buku yang telah mereka baca. Ulasan ini dapat berisi pendapat, komentar, atau tanggapan pengguna terhadap buku tertentu
+
 4.3 Halaman Popular
-   4.3.1 
+   
+4.3.1  
+
 5. Other Nonfunctional Requirements
 
 5.1 Performance Requirements
