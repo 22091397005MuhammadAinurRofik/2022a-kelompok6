@@ -93,7 +93,7 @@ Revision History
 
 Name Date Reason For Changes Version
 
-1. Introduction
+**1. Introduction**
 
 1.1 Purpose
 
@@ -113,7 +113,7 @@ OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari buk
 
 1.5 References
 
-2. Overall Description
+**2. Overall Description**
 
 2.1 Product Perspective
 
@@ -139,7 +139,7 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
 
 2.7 Assumptions and Dependencies
 
-3. External Interface Requirements
+**3. External Interface Requirements**
 
 3.1 User Interfaces
 
@@ -368,7 +368,7 @@ Pada selector header berisi atribut :
 3. padding: 6px;: Properti ini menambahkan jarak padding sebanyak 6 piksel di sekeliling elemen-elemen <td>. Padding adalah ruang kosong antara batas elemen dan kontennya.
 4. text-align: left;: Properti ini mengatur teks dalam elemen-elemen <td> untuk dipojok kiri.
 
-4. System Features
+**4. System Features**
 
 4.1 Halaman Beranda
    
@@ -417,7 +417,7 @@ Pada selector header berisi atribut :
    Stimulus 2 = Pengguna tertarik untuk membeli buku yang telah dilihat dan dibaca
    Respon 2 = Pengguna meng-klik tombol toko buku yang kemudian diarahkan ke website gramedia untuk membelinya
 
-5. Other Nonfunctional Requirements
+**5. Other Nonfunctional Requirements**
 
 5.1 Performance Requirements
 
@@ -429,7 +429,7 @@ Pada selector header berisi atribut :
 
 5.5 Business Rules
 
-6. Other Requirements
+**6. Other Requirements**
 
 Appendix A: Glossary
 
