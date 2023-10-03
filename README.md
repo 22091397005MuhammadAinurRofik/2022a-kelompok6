@@ -402,6 +402,13 @@ Pada selector header berisi atribut :
 
 Appendix A: Glossary
 
+Software : Perangkat lunak yang berisikan data atau file yang dapat disimpan, dibuka, dan dibaca pada komputer.
+Website : Yaitu halaman informasi yang disediakan melalui jalur internet yang bisa diakses oleh seluruh dunia selama terkoneksi dengan internet.
+Domain : Alamat website, yaitu dapat mengantarkan kita ke alamat website yang dituju.
+Server : Merupakan sistem komputer yang memiliki layanan khusus berupa penyimpanan data.
+HTML : Hypertext Markup Language merupakan bahasa yang digunakan untuk membuat struktur website ini.
+CSS : Cascading Style Sheet yaitu bahasa yang digunakan untuk mengatur tampilan website OnBook ini.
+
 Appendix B: Analysis Models
 
 Flowchart
