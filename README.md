@@ -28,7 +28,7 @@ Pada era revolusi industri 5.0 ini banyak teknologi yang berkembang di berbagai 
 
 1.1 Purpose
 
-Dokumen ini berisi Software Requirement Specification (SRS). Tujuan dibuatnya dokumen ini yaitu untuk memperjelas pengertian dari website OnBook secara lebih rinci. Dokumen SRS ini juga bertujuan memudahkan pengguna atau audiens untuk lebih mengerti mengenai website SRS yang dibuat. Diharapkan website ini dapat membantu pengguna agar lebih teliti ketika ingin membeli buku, karena website ini akan menjelaskan isi detail setiap jenis buku.
+Dokumen ini berisi Software Requirement Specification (SRS). Tujuan dibuatnya dokumen ini yaitu untuk memperjelas pengertian dari website OnBook secara lebih rinci dan lebih jelas untuk mempermudah pembaca. Dokumen SRS ini juga bertujuan memudahkan pengguna atau audiens untuk lebih mengerti mengenai website SRS yang dibuat. Diharapkan website ini dapat membantu pengguna agar lebih teliti ketika ingin membeli buku, karena website ini akan menjelaskan isi detail setiap jenis buku.
 
 1.2 Document Conventions
 Di sini akan dijelaskan mengenai singkatan dan pengertian dari file juga istilah yang berhubungan dengan website yang dibuat. Berikut konversi dokumen yang kami gunakan pada website OnBook:
@@ -41,28 +41,26 @@ Di sini akan dijelaskan mengenai singkatan dan pengertian dari file juga istilah
 - Format penulisan pada dokumen SRS ini menggunakan font Arial dengan spasi 1 berwarna hitam. Prioritas dari website “OnBook” ini adalah untuk memberikan informasi kepada pembaca mengenai buku-buku, seperti novel, komik, ensiklopedia, pengetahuan, dan lain sebagainya. Website ini akan memberikan ulasan buku yang disediakan informatif, terstruktur dengan baik, dan ditulis dengan gaya bahasa yang menarik.
 
 1.3 Intended Audience and Reading Suggestions
-
 Dokumen ini dipertunjukkan kepada beberapa pihak, yaitu:
 - Pengguna. Pengguna dapat menggunakan dokumen ini untuk referensi isi website OnBook dan mengetahui rincian website OnBook. Pengguna yang dituju yaitu semua orang yang memiliki smartphone dan yang ingin mengetahui harga buku di toko-toko yang menjualnya (biasanya anak-anak, remaja atau orang dewasa).
 - Audiens. Audiens yang dituju adalah semua umur dari kecil sampai dewasa. Terutama yang tertarik untuk membeli buku tetapi masih kurang yakin dengan isi bukunya dan kebingungan dimana untuk membeli buku dimana.
 
-
 1.4 Product Scope
-
-OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari buku yang diinginkan. Pada website ini pengguna dapat mengetahui cover buku dan deskripsi dari buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya.
+OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari dan membeli buku yang diinginkan. Pada website ini pengguna dapat mengetahui dari cover buku dan deskripsi dari buku tersebut. Jadi pengguna dapat mempertimbangkan keinginannya untuk membeli buku dengan cara mengetahui deskripsi dan rate buku-buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya. Terdapat halaman rekomendasi yang menampilkan buku-buku yang mungkin disukai oleh pengguna. Dan yang terakhir adalah halaman popular, menampilkan buku-buku yang paling banyak dibeli oleh para pengguna dan yang paling banyak memiliki rate tertinggi.
 
 
 **2. Overall Description**
 
 2.1 Product Perspective
 
-OnBook merupakan website yang didesain dan dibuat untuk memudahkan pengguna mengetahui buku-buku yang ingin dicari. Pada website OnBook ini setiap buku yang dicari akan menjelaskan deskripsi dari buku tersebut. Pengguna yang akan membeli buku dapat mencari tahu isi buku di website ini. Cara kerja website ini yaitu pengguna hanya perlu login menggunakan email dan passwordnya untuk masuk website agar website bisa berjalan dengan lancar.
+OnBook merupakan website yang didesain dan dibuat untuk memudahkan pengguna mengetahui buku-buku yang ingin dicari. Pada website OnBook ini setiap buku yang dicari akan menjelaskan deskripsi dari buku tersebut. Pengguna yang akan membeli buku dapat mencari tahu isi buku di website ini. Cara kerja website ini yaitu pengguna hanya perlu login menggunakan email dan memasukkan passwordnya untuk masuk website agar website bisa berjalan dengan lancar.
 
 2.2 Product Functions
 
 Website ini dikembangkan dengan melakukan beberapa fungsi sebagai berikut:
 - Registrasi akun: Fungsi memungkinkan pengguna website OnBook untuk membuat akun dan pengguna dapat mengisi data pribadi seperti Email dan kata sandinya.
 - Menampilkan tampilan dan deskripsi buku: Fungsi ini untuk memudahkan pengguna dalam mencari buku yang diinginkan dan mengetahui isi deskripsi buku tersebut.
+- Menampilkan toko penjual buku: Pada bagian ini menunjukkan toko yang menjual buku yang dicari pengguna, contohnya Gramedia.
 
 2.3 User Classes and Characteristics
 Hak Akses dari Website OnBook adalah sebagai berikut:
@@ -81,7 +79,7 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
 - Kurangnya keamanan. Karena pada website kami diperlukan email dan password email, dikhawatirkan email yang dipakai bisa dibobol oleh pihak yang tidak bertanggung jawab.
 
 2.6 User Documentation
-   Website OnBook berbasis dalam jaringan online, sehingga dapat diakses seluruh dunia selama terhubung di internet juga untuk membantu pengguna dalam mencari buku dan menemukan toko penjual buku. Website OnBook juga menyediakan fitur ulasan, jadi untuk pengguna yang sudah mampir ke website ini dapat memberikan ulasannya kepada website ini.
+   Website OnBook berbasis dalam jaringan online, sehingga dapat diakses seluruh dunia selama terhubung di internet juga untuk membantu pengguna dalam mencari buku dan menemukan toko penjual buku. Website OnBook juga menyediakan fitur ulasan, jadi untuk pengguna yang sudah mampir ke website ini dapat memberikan ulasannya kepada website OnBook ini.
    
 2.7 Assumptions and Dependencies
 Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi oleh admin. Di sini admin memiliki hak akses untuk melihat dan juga mengelola semua data-data dari user. Semisal terjadi hal yang mencurigakan d dalm data, admin dapat menindaklanjuti hal tersebut. Interface yang selanjutnya yaitu tampilan halaman website OnBook bagi para user. Di sini user memiliki hak akses pada segala hal yang sudah disediakan dalam web OnBook sendiri. Seperti pencarian buku, rekomendasi, toko, dan lain sebagainya.
@@ -375,7 +373,7 @@ Terdapat beberapa persyaratan kinerja pada jalannya website OnBook ini :
 - Server harus bisa memberitahukan kepada user toko mana saja yang menjual buku yang dicari.
 
 5.2 Safety Requirements
-Website OnBook merupakan website dengan keamanan yang cukup baik. Kami akan memastikan website OnBook ini akan aman digunakan bagi seluruh pengguna yang mengakses website ini. Walau website ini bisa diakses oleh seluruh dunia, keamanan pengguna dipastikan dengan cukup baik. Pada login website terdapat urutan cara untuk memasukkan email dan sandinya untuk memperketat keamanan. Jadi pengguna tidak perlu khawatir dalam kecolongan data, penipuan identitas, akses dari pihak yang tidak bertanggung jawab pada website ini.
+ Website OnBook merupakan website dengan keamanan yang cukup baik. Kami akan memastikan website OnBook ini akan aman digunakan bagi seluruh pengguna yang mengakses website ini. Walau website ini bisa diakses oleh seluruh dunia, keamanan pengguna dipastikan dengan cukup baik. Pada login website terdapat urutan cara untuk memasukkan email dan sandinya untuk memperketat keamanan. Jadi pengguna tidak perlu khawatir dalam kecolongan data, penipuan identitas, akses dari pihak yang tidak bertanggung jawab pada website ini.
 
 5.3 Security Requirements
 Untuk persyaratan keamanan pada website OnBook ini yaitu :
@@ -394,18 +392,18 @@ Beberapa Kualitas pada Website yang ada yaitu sebagai berikut:
    Sistem ini portable karena pengguna dan admin dapat mengakses website ini kapan saja dan dimana saja.
 
 5.5 Business Rules
-Aturan bisnis yang ada pada website OnBook ini yaitu kerjasama dengan pihak toko yang terkait. Website ini akan memberikan informasi tentang buku dan informasi toko penjual buku. Di sini bisa dibilang website OnBook ini akan mempromosikan toko yang diajak kerjasama, maka dari itulah website OnBook ini mendapatkan keuntungan. Pengguna yang sudah daftar dan login akan dapat mengakses website OnBook dengan baik.
+ Aturan bisnis yang ada pada website OnBook ini yaitu kerjasama dengan pihak toko yang terkait. Website ini akan memberikan informasi tentang buku dan informasi toko penjual buku. Di sini bisa dibilang website OnBook ini akan mempromosikan toko yang diajak kerjasama, maka dari itulah website OnBook ini mendapatkan keuntungan. Pengguna yang sudah daftar dan login akan dapat mengakses website OnBook dengan baik.
 
 **6. Other Requirements**
 
 Appendix A: Glossary
 
-Software : Perangkat lunak yang berisikan data atau file yang dapat disimpan, dibuka, dan dibaca pada komputer.
-Website : Yaitu halaman informasi yang disediakan melalui jalur internet yang bisa diakses oleh seluruh dunia selama terkoneksi dengan internet.
-Domain : Alamat website, yaitu dapat mengantarkan kita ke alamat website yang dituju.
-Server : Merupakan sistem komputer yang memiliki layanan khusus berupa penyimpanan data.
-HTML : Hypertext Markup Language merupakan bahasa yang digunakan untuk membuat struktur website ini.
-CSS : Cascading Style Sheet yaitu bahasa yang digunakan untuk mengatur tampilan website OnBook ini.
+- Software : Perangkat lunak yang berisikan data atau file yang dapat disimpan, dibuka, dan dibaca pada komputer.
+- Website : Yaitu halaman informasi yang disediakan melalui jalur internet yang bisa diakses oleh seluruh dunia selama terkoneksi dengan internet.
+- Domain : Alamat website, yaitu dapat mengantarkan kita ke alamat website yang dituju.
+- Server : Merupakan sistem komputer yang memiliki layanan khusus berupa penyimpanan data.
+- HTML : Hypertext Markup Language merupakan bahasa yang digunakan untuk membuat struktur website ini.
+- CSS : Cascading Style Sheet yaitu bahasa yang digunakan untuk mengatur tampilan website OnBook ini.
 
 Appendix B: Analysis Models
 
@@ -424,3 +422,4 @@ Untuk daftar yang akan ditentukan ada beberapa yang akan dikembangkan, yaitu:
 1. Kami akan mengembangkan website OnBook ini dengan menambahkan beberapa fitur untuk lebih mempermudah pengguna.
 2. Kami akan memperbaiki tampilan pada website agar lebih menarik.
 3. Menambah akses keamanan data pengguna yang sudah pernah login ke website OnBook.
+4. Menambahkan fitur-fitur baru untuk menarik minat pengguna.
