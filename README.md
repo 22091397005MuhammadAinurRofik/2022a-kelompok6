@@ -21,24 +21,35 @@ Tahun 2023
 
 
 **1. Introduction**
+Pada era revolusi industri 5.0 ini banyak teknologi yang berkembang di berbagai daerah, terutama perkembangan pada design dan website. Contoh perkembangan teknologi pada bidang desain sendiri yaitu seperti adanya aplikasi-aplikasi mengenai colour pallet dan ada juga aplikasi yang menyediakan objek gambar untuk akses pengeditan dan masih banyak lagi. Kemudian pada website sendiri banyak dipakai oleh orang untuk mempermudah mereka untuk pencarian sesuatu lebih cepat. Banyak fungsi website yang dikembangkan pada era ini, seperti model tampilan yang dipercantik, banyak fitur baru yang ditambahkan, kemudian juga mempermudah user dalam mengakses website tersebut. Di sini kami membuat website dengan nama OnBook. Tujuan kami membuat website ini yaitu untuk membantu user agar lebih mudah dalam mencari toko penjual buku yang dicari oleh user itu sendiri. 
+ Website ini menjelaskan tentang penjualan buku yang mungkin ada pada toko-toko buku yang tersambung atau sudah bekerja sama dengan website kami. Yang mana website kami akan memberitahukan informasi tentang buku yang dicari oleh user, kemudian website OnBook akan menampilkan buku-buku dan harga pada buku tersebut, setelah itu akan ditunjukkan rekomendasi toko-toko yang menjual buku yang dicari. Pada awalnya website kami hanya dirancang secara sederhana hanya untuk menampilkan harga buku-buku yang ada, namun setelahnya dirubah menjadi lebih kompleks dan juga lebih rapi. Di sini juga ditambahkan fitur untuk menampilkan toko yang berjualan buku yang dicari untuk mempermudah user.
+
 
 1.1 Purpose
 
 Dokumen ini berisi Software Requirement Specification (SRS). Tujuan dibuatnya dokumen ini yaitu untuk memperjelas pengertian dari website OnBook secara lebih rinci. Dokumen SRS ini juga bertujuan memudahkan pengguna atau audiens untuk lebih mengerti mengenai website SRS yang dibuat. Diharapkan website ini dapat membantu pengguna agar lebih teliti ketika ingin membeli buku, karena website ini akan menjelaskan isi detail setiap jenis buku.
 
 1.2 Document Conventions
+Di sini akan dijelaskan mengenai singkatan dan pengertian dari file juga istilah yang berhubungan dengan website yang dibuat. Berikut konversi dokumen yang kami gunakan pada website OnBook:
+- Software : Perangkat lunak yang berisikan data atau file yang dapat disimpan, dibuka, dan dibaca pada komputer.
+- Website : Yaitu halaman informasi yang disediakan melalui jalur internet yang bisa diakses oleh seluruh dunia selama terkoneksi dengan internet.
+- Domain : Alamat website, yaitu dapat mengantarkan kita ke alamat website yang dituju.
+- Server : Merupakan sistem komputer yang memiliki layanan khusus berupa penyimpanan data.
+- HTML : Hypertext Markup Language merupakan bahasa yang digunakan untuk membuat struktur website ini.
+- CSS : Cascading Style Sheet yaitu bahasa yang digunakan untuk mengatur tampilan website OnBook ini.
+Format penulisan pada dokumen SRS ini menggunakan font Arial dengan spasi 1 berwarna hitam. Prioritas dari website “OnBook” ini adalah untuk memberikan informasi kepada pembaca mengenai buku-buku, seperti novel, komik, ensiklopedia, pengetahuan, dan lain sebagainya. Website ini akan memberikan ulasan buku yang disediakan informatif, terstruktur dengan baik, dan ditulis dengan gaya bahasa yang menarik.
 
 1.3 Intended Audience and Reading Suggestions
 
 Dokumen ini dipertunjukkan kepada beberapa pihak, yaitu:
-a. Pengguna. Pengguna dapat menggunakan dokumen ini untuk referensi isi website OnBook dan mengetahui rincian website OnBook.
-b. Audiens. Audiens yang dituju adalah semua umur dari kecil sampai dewasa. Terutama yang tertarik untuk membeli buku tetapi masih kurang yakin dengan isi bukunya.
+- Pengguna. Pengguna dapat menggunakan dokumen ini untuk referensi isi website OnBook dan mengetahui rincian website OnBook. Pengguna yang dituju yaitu semua orang yang memiliki smartphone dan yang ingin mengetahui harga buku di toko-toko yang menjualnya (biasanya anak-anak, remaja atau orang dewasa).
+- Audiens. Audiens yang dituju adalah semua umur dari kecil sampai dewasa. Terutama yang tertarik untuk membeli buku tetapi masih kurang yakin dengan isi bukunya dan kebingungan dimana untuk membeli buku dimana.
+
 
 1.4 Product Scope
 
 OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari buku yang diinginkan. Pada website ini pengguna dapat mengetahui cover buku dan deskripsi dari buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya.
 
-1.5 References
 
 **2. Overall Description**
 
@@ -53,18 +64,26 @@ Website ini dikembangkan dengan melakukan beberapa fungsi sebagai berikut:
 ● Menampilkan tampilan dan deskripsi buku: Fungsi ini untuk memudahkan pengguna dalam mencari buku yang diinginkan dan mengetahui isi deskripsi buku tersebut.
 
 2.3 User Classes and Characteristics
+Hak Akses dari Website OnBook adalah sebagai berikut:
+- Admin : Hak akses pada setiap data yang ada. Mendata email beserta kata sandi yang sudah masuk pada website.
+- Pengguna : Mengisi ketentuan seperti email dan kata sandi pada halaman login. Memberikan ulasan ke website OnBook. Melihat rekomendasi buku dan toko penjual buku.
 
 2.4 Operating Environment
+Website OnBook dapat beroperasi berdasarkan spesifikasi sebagai berikut:
+- Dapat diakses selama 24 jam
+- Tidak adanya ketentuan minimal RAM pada laptop atau smartphone
+- Bisa diakses kapan saja dan dimana saja asalkan terhubung dengan internet yang baik
 
 2.5 Design and Implementation Constraints
-
 Kendala yang mungkin terjadi pada website OnBook yaitu:
-● Jaringan internet yang tidak stabil. Karena website OnBook ini harus memakai akses internet, ketidakstabilan jaringan dapat mengganggu pengguna dalam menjalankan website ini.
-● Kurangnya keamanan. Karena pada website kami diperlukan email dan password email, dikhawatirkan email yang dipakai bisa dibobol oleh pihak yang tidak bertanggung jawab.
+- Jaringan internet yang tidak stabil. Karena website OnBook ini harus memakai akses internet, ketidakstabilan jaringan dapat mengganggu pengguna dalam menjalankan website ini.
+- Kurangnya keamanan. Karena pada website kami diperlukan email dan password email, dikhawatirkan email yang dipakai bisa dibobol oleh pihak yang tidak bertanggung jawab.
 
 2.6 User Documentation
-
+   Website OnBook berbasis dalam jaringan online, sehingga dapat diakses seluruh dunia selama terhubung di internet juga untuk membantu pengguna dalam mencari buku dan menemukan toko penjual buku. Website OnBook juga menyediakan fitur ulasan, jadi untuk pengguna yang sudah mampir ke website ini dapat memberikan ulasannya kepada website ini.
+   
 2.7 Assumptions and Dependencies
+Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi oleh admin. Di sini admin memiliki hak akses untuk melihat dan juga mengelola semua data-data dari user. Semisal terjadi hal yang mencurigakan d dalm data, admin dapat menindaklanjuti hal tersebut. Interface yang selanjutnya yaitu tampilan halaman website OnBook bagi para user. Di sini user memiliki hak akses pada segala hal yang sudah disediakan dalam web OnBook sendiri. Seperti pencarian buku, rekomendasi, toko, dan lain sebagainya.
 
 **3. External Interface Requirements**
 
@@ -347,14 +366,33 @@ Pada selector header berisi atribut :
 **5. Other Nonfunctional Requirements**
 
 5.1 Performance Requirements
+Terdapat beberapa persyaratan kinerja pada jalannya website OnBook ini :
+- Website OnBook ini dapat diakses selama 24 jam selama masih tetap terhubung dengan internet.
+- Server harus bisa memberikan informasi mengenai buku yang dicari user.
+- Server harus bisa memberikan informasi tentang harga buku.
+- Server harus bisa memberitahukan kepada user toko mana saja yang menjual buku yang dicari.
 
 5.2 Safety Requirements
+Website OnBook merupakan website dengan keamanan yang cukup baik. Kami akan memastikan website OnBook ini akan aman digunakan bagi seluruh pengguna yang mengakses website ini. Walau website ini bisa diakses oleh seluruh dunia, keamanan pengguna dipastikan dengan cukup baik. Pada login website terdapat urutan cara untuk memasukkan email dan sandinya untuk memperketat keamanan. Jadi pengguna tidak perlu khawatir dalam kecolongan data, penipuan identitas, akses dari pihak yang tidak bertanggung jawab pada website ini.
 
 5.3 Security Requirements
+Untuk persyaratan keamanan pada website OnBook ini yaitu :
+- Pada bagian login dilengkapi dengan email dan kata sandi, jadi ketika pengguna mendaftar maka email dan kata sandi ini akan tertampil untuk diisi pengguna sebagai syarat keamanan yang ada.
+- Server down yang terjadi pada website maksimal 24 jam.
+- Keamanan terjamin karena sistem akan memastikan data-data yang sudah didaftarkan melalui email dan kata sandi yang sudah didaftarkan.
+- Email dan kata sandi dapat diganti sesuai keinginan pengguna.
 
 5.4 Software Quality Attributes
+Beberapa Kualitas pada Website yang ada yaitu sebagai berikut:
+- Keandalan
+   Website ini dapat diakses selama 24 jam penuh asalkan tetap terhubung pada internet.
+- Keamanan
+   Keamanan pengguna dapat terjaga karena terdapat email dan kata sandi pribadi dari setiap user.
+- Portability
+   Sistem ini portable karena pengguna dan admin dapat mengakses website ini kapan saja dan dimana saja.
 
 5.5 Business Rules
+Aturan bisnis yang ada pada website OnBook ini yaitu kerjasama dengan pihak toko yang terkait. Website ini akan memberikan informasi tentang buku dan informasi toko penjual buku. Di sini bisa dibilang website OnBook ini akan mempromosikan toko yang diajak kerjasama, maka dari itulah website OnBook ini mendapatkan keuntungan. Pengguna yang sudah daftar dan login akan dapat mengakses website OnBook dengan baik.
 
 **6. Other Requirements**
 
