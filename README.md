@@ -340,15 +340,15 @@ Pada selector header berisi atribut :
    
 4.2.2 Stimulus/Response Sequences
 
-   Stimulus = Pengguna akan melihat beberapa buku rekomendasi yang sedang best seller
-   Respon = Pengguna melihat informasi mengenai buku tersebut dan membaca ulasan
+   Stimulus = Pengguna akan melihat beberapa buku rekomendasi yang sedang best seller.
+   Respon = Pengguna melihat informasi mengenai buku tersebut dan membaca deskripsi dan ulasan pada halaman buku rekomendasi.
 
-   Stimulus 2 = Pengguna tertarik untuk membeli buku yang telah dilihat dan dibaca
-   Respon 2 = Pengguna meng-klik tombol toko buku yang kemudian diarahkan ke website gramedia untuk membelinya
+   Stimulus 2 = Pengguna tertarik untuk membeli buku yang telah dilihat dan dibaca.
+   Respon 2 = Pengguna menekan tombol toko buku yang kemudian diarahkan ke website gramedia untuk membelinya.
    
 4.2.3 Functional Requirements
 
-   Fitur Ulasan. Fitur ulasan pada OnBook memungkinkan pengguna untuk memberikan ulasan dan peringkat buku yang telah mereka baca. Ulasan ini dapat berisi pendapat, komentar, atau tanggapan pengguna terhadap buku tertentu
+   Fitur Ulasan. Fitur ulasan pada OnBook memungkinkan pengguna untuk memberikan ulasan dan peringkat buku yang telah mereka baca. Ulasan ini dapat berisi pendapat, komentar, atau tanggapan pengguna terhadap buku yang ingin dinilai oleh para pengguna.
    
 
 4.3 Halaman Popular
@@ -362,8 +362,8 @@ Pada selector header berisi atribut :
    Stimulus 1 = Pengguna melihat buku-buku yang ditampilkan pada halaman popular.
    Respon 1 = Pengguna merasa tertarik dan penasaran dengan buku-buku yang ditampilkan. Mereka mulai melihat informasi mengenai buku tersebut dan membaca ulasan.
 
-   Stimulus 2 = Pengguna tertarik untuk membeli buku yang telah dilihat dan dibaca
-   Respon 2 = Pengguna meng-klik tombol toko buku yang kemudian diarahkan ke website gramedia untuk membelinya
+   Stimulus 2 = Pengguna tertarik untuk membeli buku yang telah dilihat dan dibaca.
+   Respon 2 = Pengguna menekan tombol "toko buku" yang kemudian diarahkan ke website gramedia untuk melakukan pembelian
 
 **5. Other Nonfunctional Requirements**
 
