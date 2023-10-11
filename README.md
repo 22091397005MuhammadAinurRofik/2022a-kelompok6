@@ -45,8 +45,13 @@ Dokumen ini dipertunjukkan kepada beberapa pihak, yaitu:
 - Pengguna. Pengguna dapat menggunakan dokumen ini untuk referensi isi website OnBook dan mengetahui rincian website OnBook. Pengguna yang dituju yaitu semua orang yang memiliki smartphone dan yang ingin mengetahui harga buku di toko-toko yang menjualnya (biasanya anak-anak, remaja atau orang dewasa).
 - Audiens. Audiens yang dituju adalah semua umur dari kecil sampai dewasa. Terutama yang tertarik untuk membeli buku tetapi masih kurang yakin dengan isi bukunya dan kebingungan dimana untuk membeli buku dimana.
 
+Saran pengembangan dalam website OnBook yaitu:
+1. Meningkatkan fitur keamanan. Dengan meningkatkan fitur keamanan dapat memberikan kenyamanan lebih bagi user tanpa mengkhawatirkan akan data-data pribadinya.
+2. Pengembangan AI pada website OnBook. Mengembangkan website untuk meningkatkan fungsi website ini sendiri. Contohnya seperti menyediakan fitur belanja online dan kerjasama dengan aplikasi Shopee.
+3. Mmperhatikan Ulasan Pengguna. Ulasan dari pengguna harus diperhatikan dan kita sebagai pengelola harus bisa mengembangkan aplikasi sesuai dengan ulasan dan lebih memperbaikinya lagi.
+
 1.4 Product Scope
-OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari dan membeli buku yang diinginkan. Pada website ini pengguna dapat mengetahui dari cover buku dan deskripsi dari buku tersebut. Jadi pengguna dapat mempertimbangkan keinginannya untuk membeli buku dengan cara mengetahui deskripsi dan rate buku-buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya. Terdapat halaman rekomendasi yang menampilkan buku-buku yang mungkin disukai oleh pengguna. Dan yang terakhir adalah halaman popular, menampilkan buku-buku yang paling banyak dibeli oleh para pengguna dan yang paling banyak memiliki rate tertinggi.
+OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari dan membeli buku yang diinginkan. Pada website ini pengguna dapat mengetahui dari cover buku dan deskripsi dari buku tersebut. Jadi pengguna dapat mempertimbangkan keinginannya untuk membeli buku dengan cara mengetahui deskripsi dan rate buku-buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya. Terdapat halaman rekomendasi yang menampilkan buku-buku yang mungkin disukai oleh pengguna. Dan yang terakhir adalah halaman popular, menampilkan buku-buku yang paling banyak dibeli oleh para pengguna dan yang paling banyak memiliki rate tertinggi. Website ini juga menyediakan fitur notifikasi, jadi jika ada buku terbaru yang masuk kategori popular maupun rekomendasi akan muncul notifikasi pada handphone maupun PC.
 
 
 **2. Overall Description**
@@ -79,7 +84,9 @@ Kendala yang mungkin terjadi pada website OnBook yaitu:
 - Kurangnya keamanan. Karena pada website kami diperlukan email dan password email, dikhawatirkan email yang dipakai bisa dibobol oleh pihak yang tidak bertanggung jawab.
 
 2.6 User Documentation
-   Website OnBook berbasis dalam jaringan online, sehingga dapat diakses seluruh dunia selama terhubung di internet juga untuk membantu pengguna dalam mencari buku dan menemukan toko penjual buku. Website OnBook juga menyediakan fitur ulasan, jadi untuk pengguna yang sudah mampir ke website ini dapat memberikan ulasannya kepada website OnBook ini.
+   Dalam pengimplementasiannya, website OnBook komponen dokumentasi yang dapat diberikan sebagai bantuan untuk menyelesaikan masalah dalam mengakses website OnBook yaitu:
+   - Video Tutorial: Video ini berfungsi untuk memberitahu pengguna tutorial cara mengakses website yang baik dan benar. Akan diberitahukan step-one-step dalam penjelasan penggunaan website.
+   - Adanya fitur komentar: Mempermudah pengguna untuk menyampaikan keluh kesahnya atas pelayanan website yang dibuat.
    
 2.7 Assumptions and Dependencies
 Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi oleh admin. Di sini admin memiliki hak akses untuk melihat dan juga mengelola semua data-data dari user. Semisal terjadi hal yang mencurigakan d dalm data, admin dapat menindaklanjuti hal tersebut. Interface yang selanjutnya yaitu tampilan halaman website OnBook bagi para user. Di sini user memiliki hak akses pada segala hal yang sudah disediakan dalam web OnBook sendiri. Seperti pencarian buku, rekomendasi, toko, dan lain sebagainya.
