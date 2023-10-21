@@ -120,9 +120,9 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 
 3.5 Desain Graphical User Interface
 
-**Penjelasan HTML**
+####**Penjelasan HTML**
 
-![halaman utama](./imgsrs/ber.png)
+![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
 
 1. tag ***title** digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
@@ -238,86 +238,86 @@ Contoh penggunaan:
 
 
 
-**Penjelasan CSS**
+####**Penjelasan CSS**
 
 ![halaman utama](./imgsrs/1.jpg)
 
-1.	header: Ini adalah pemilih CSS yang menargetkan elemen HTML <header>. Semua aturan CSS ini akan diterapkan pada elemen <header> dalam dokumen HTML.
-2.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen <header>. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
-3.	color: #000000;: Ini mengatur warna teks dalam elemen <header>. Warna teks diatur menjadi hitam (#000000).
-4.	padding-left: 50px;: Ini menambahkan jarak (padding) di sisi kiri elemen <header>. Dalam hal ini, terdapat padding sebanyak 50 piksel di sisi kiri elemen.
-5.	width: 100%;: Properti ini memberi elemen <header> lebar 100% dari lebar elemen yang mengandungnya. Dengan kata lain, elemen <header> akan mengisi seluruh lebar elemen yang mengandungnya.
-6.	display: flex;: Ini mengatur elemen <header> untuk menggunakan model tata letak fleksibel. Ini memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen di dalamnya.
-7.	position: fixed;: Dengan properti ini, elemen <header> akan memiliki posisi tetap di layar. Artinya, elemen ini akan tetap terlihat di atas layar saat halaman digulir.
-8.	justify-content: space-between;: Ini adalah salah satu properti yang digunakan dalam model tata letak fleksibel. Dalam hal ini, elemen-elemen di dalam elemen <header> akan disebar sejauh mungkin di dalam ruang horizontal, sehingga ada ruang kosong di antara elemen-elemen tersebut.
-9.	align-items: center;: Ini juga merupakan properti dari model tata letak fleksibel. Ini mengatur elemen-elemen di dalam elemen <header> agar terpusat secara vertikal, sehingga mereka akan berada di tengah vertikal elemen <header>.
-10.	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);: Ini menambahkan bayangan (shadow) pada elemen <header>. Bayangan ini adalah bayangan dengan warna hitam (rgba(0, 0, 0, 0.1)) yang memiliki ketebalan 5 piksel. Bayangan ini memberikan efek visual yang sedikit menebalkan elemen saat ditempatkan di atas elemen lain.
-11.	z-index: 9999;: Properti ini mengatur indeks z (z-index) elemen <header>. Ini digunakan untuk mengendalikan tumpukan elemen yang tumpang tindih. Semakin besar nilai indeks z, semakin tinggi elemen akan muncul di atas elemen-elemen lain dalam dokumen.
+header adalah pemilih CSS yang menargetkan elemen HTML header. Semua aturan CSS ini akan diterapkan pada elemen header dalam dokumen HTML.
+1. background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen header. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
+2. color: #000000;: Ini mengatur warna teks dalam elemen header. Warna teks diatur menjadi hitam (#000000).
+3. padding-left: 50px;: Ini menambahkan jarak (padding) di sisi kiri elemen header. Dalam hal ini, terdapat padding sebanyak 50 piksel di sisi kiri elemen.
+4. width: 100%;: Properti ini memberi elemen header lebar 100% dari lebar elemen yang mengandungnya. Dengan kata lain, elemen header akan mengisi seluruh lebar elemen yang mengandungnya.
+5. display: flex;: Ini mengatur elemen header untuk menggunakan model tata letak fleksibel. Ini memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen di dalamnya.
+6. position: fixed;: Dengan properti ini, elemen header akan memiliki posisi tetap di layar. Artinya, elemen ini akan tetap terlihat di atas layar saat halaman digulir.
+7. justify-content: space-between;: Ini adalah salah satu properti yang digunakan dalam model tata letak fleksibel. Dalam hal ini, elemen-elemen di dalam elemen header akan disebar sejauh mungkin di dalam ruang horizontal, sehingga ada ruang kosong di antara elemen-elemen tersebut.
+8. align-items: center;: Ini juga merupakan properti dari model tata letak fleksibel. Ini mengatur elemen-elemen di dalam elemen <header> agar terpusat secara vertikal, sehingga mereka akan berada di tengah vertikal elemen header.
+9. box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);: Ini menambahkan bayangan (shadow) pada elemen header. Bayangan ini adalah bayangan dengan warna hitam (rgba(0, 0, 0, 0.1)) yang memiliki ketebalan 5 piksel. Bayangan ini memberikan efek visual yang sedikit menebalkan elemen saat ditempatkan di atas elemen lain.
+10. z-index: 9999;: Properti ini mengatur indeks z (z-index) elemen header. Ini digunakan untuk mengendalikan tumpukan elemen yang tumpang tindih. Semakin besar nilai indeks z, semakin tinggi elemen akan muncul di atas elemen-elemen lain dalam dokumen.
 
 ![halaman utama](./imgsrs/2.jpg)
 
-1.	nav: Ini adalah pemilih CSS yang menargetkan elemen HTML <nav>. Semua aturan CSS ini akan diterapkan pada elemen <nav> dalam dokumen HTML.
-2.	padding-right: 100px;: Properti ini menambahkan jarak (padding) di sisi kanan elemen `<nav>. Dalam hal ini, terdapat padding sebanyak 100 piksel di sisi kanan elemen.
+nav adalah pemilih CSS yang menargetkan elemen HTML nav. Semua aturan CSS ini akan diterapkan pada elemen nav dalam dokumen HTML.
+1. padding-right: 100px;: Properti ini menambahkan jarak (padding) di sisi kanan elemen nav. Dalam hal ini, terdapat padding sebanyak 100 piksel di sisi kanan elemen.
 
 ![halaman utama](./imgsrs/3.jpg)
 
-1.	nav ul a button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
+nav ul a button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
 
-nav: Merujuk pada elemen <nav>.
+nav: Merujuk pada elemen nav.
 
-ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+ul: Merujuk pada elemen-elemen ul (daftar tak terurut) yang berada dalam elemen nav.
 
-a: Merujuk pada elemen-elemen <a> (tautan) yang berada dalam elemen-elemen <ul>.
+a: Merujuk pada elemen-elemen a (tautan) yang berada dalam elemen-elemen ul.
 
-button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <a>.
+button: Merujuk pada elemen-elemen button yang berada dalam elemen-elemen a.
 
-2.	border: none;: Ini menghilangkan batas (border) dari elemen-elemen yang dipilih. Dengan properti ini, elemen-elemen tersebut tidak akan memiliki garis batas.
-3.	width: 130px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 130 piksel.
-4.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
-5.	margin-right: 10px;: Ini menambahkan jarak (margin) sebesar 10 piksel di sisi kanan elemen-elemen yang dipilih. Ini akan memberikan jarak antara elemen-elemen yang berdekatan dalam elemen <ul>.
-6.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
-7.	border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
-8.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
+1. border: none;: Ini menghilangkan batas (border) dari elemen-elemen yang dipilih. Dengan properti ini, elemen-elemen tersebut tidak akan memiliki garis batas.
+2. width: 130px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 130 piksel.
+3. height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
+4. margin-right: 10px;: Ini menambahkan jarak (margin) sebesar 10 piksel di sisi kanan elemen-elemen yang dipilih. Ini akan memberikan jarak antara elemen-elemen yang berdekatan dalam elemen ul.
+5. font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
+6. border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
+7. background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
 
 ![halaman utama](./imgsrs/4.jpg)
 
-1.	nav ul button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
+nav ul button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
 
-nav: Merujuk pada elemen <nav>.
+nav: Merujuk pada elemen nav.
 
-ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+ul: Merujuk pada elemen-elemen ul (daftar tak terurut) yang berada dalam elemen nav.
 
-button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>.
+button: Merujuk pada elemen-elemen button yang berada dalam elemen-elemen ul.
 
-2.	width: 100px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 100 piksel.
-3.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
-4.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
-5.	border-color: #c99999;: Properti ini mengatur warna batas (border) elemen-elemen yang dipilih. Dalam hal ini, warna batas ditentukan sebagai #c99999, yang mewakili warna merah muda yang tertentu.
-6.	border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
-7.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
+1. width: 100px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 100 piksel.
+2. height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
+3. font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
+4. border-color: #c99999;: Properti ini mengatur warna batas (border) elemen-elemen yang dipilih. Dalam hal ini, warna batas ditentukan sebagai #c99999, yang mewakili warna merah muda yang tertentu.
+5. border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
+6. background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
 
 ![halaman utama](./imgsrs/5.jpg)
 
-1.	ul: Ini adalah pemilih CSS yang menargetkan elemen-elemen HTML <ul>. Semua aturan CSS ini akan diterapkan pada elemen-elemen <ul> dalam dokumen HTML.
-2.	display: flex;: Properti ini mengatur elemen-elemen <ul> untuk menggunakan model tata letak fleksibel. Dengan menggunakan display: flex;, elemen-elemen dalam daftar tak terurut akan mengikuti model tata letak fleksibel, yang memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen dalam daftar tersebut.
+ul Ini adalah pemilih CSS yang menargetkan elemen-elemen HTML ul. Semua aturan CSS ini akan diterapkan pada elemen-elemen ul dalam dokumen HTML.
+1. display: flex;: Properti ini mengatur elemen-elemen ul untuk menggunakan model tata letak fleksibel. Dengan menggunakan display flex, elemen-elemen dalam daftar tak terurut akan mengikuti model tata letak fleksibel, yang memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen dalam daftar tersebut.
 
 ![halaman utama](./imgsrs/6.jpg)
 
-1.	button:hover: Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen <button> saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tombol.
-2.	background-color: #c99999;: Properti ini mengatur warna latar belakang elemen <button> ketika pengguna menghover elemen tersebut. Dalam hal ini, warna latar belakang berubah menjadi #c99999, yang mewakili warna merah muda yang tertentu.
-3.	transition: 0.4s;: Properti ini mengatur transisi atau animasi ketika ada perubahan dalam properti-properti CSS. Dalam konteks ini, transisi 0.4 detik (0.4s) akan diterapkan ketika warna latar belakang elemen <button> berubah. Ini berarti perubahan warna latar belakang akan terjadi dengan efek animasi selama 0.4 detik, memberikan pengalaman hover yang lebih halus.
+button hover Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen button saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tombol.
+1. background-color: #c99999;: Properti ini mengatur warna latar belakang elemen button ketika pengguna menghover elemen tersebut. Dalam hal ini, warna latar belakang berubah menjadi #c99999, yang mewakili warna merah muda yang tertentu.
+2. transition: 0.4s;: Properti ini mengatur transisi atau animasi ketika ada perubahan dalam properti-properti CSS. Dalam konteks ini, transisi 0.4 detik (0.4s) akan diterapkan ketika warna latar belakang elemen button berubah. Ini berarti perubahan warna latar belakang akan terjadi dengan efek animasi selama 0.4 detik, memberikan pengalaman hover yang lebih halus.
 
 ![halaman utama](./imgsrs/7.jpg)
 
-1.	a: Ini adalah pemilih CSS yang menargetkan semua elemen tautan <a> dalam dokumen. Aturan ini akan diterapkan pada semua tautan dalam halaman web.
-2.	text-decoration: none;: Properti ini menghilangkan dekorasi teks default dari tautan, seperti garis bawah yang biasanya ada pada tautan. Dengan mengatur text-decoration menjadi none, tautan tidak akan memiliki dekorasi teks, sehingga tautan akan terlihat seperti teks biasa tanpa garis bawah.
-3.	color: #000000;: Properti ini mengatur warna teks tautan. Dalam hal ini, warna teks tautan ditentukan sebagai hitam (#000000).
-4.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam tautan menjadi 16 piksel.
+a Ini adalah pemilih CSS yang menargetkan semua elemen tautan a dalam dokumen. Aturan ini akan diterapkan pada semua tautan dalam halaman web.
+1. text-decoration: none;: Properti ini menghilangkan dekorasi teks default dari tautan, seperti garis bawah yang biasanya ada pada tautan. Dengan mengatur text-decoration menjadi none, tautan tidak akan memiliki dekorasi teks, sehingga tautan akan terlihat seperti teks biasa tanpa garis bawah.
+2. color: #000000;: Properti ini mengatur warna teks tautan. Dalam hal ini, warna teks tautan ditentukan sebagai hitam (#000000).
+3. font-size: 16px;: Properti ini mengatur ukuran font teks dalam tautan menjadi 16 piksel.
 
 ![halaman utama](./imgsrs/8.jpg)
 
-1.	a:hover: Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen <a> saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tautan.
-2.	color: #c72323;: Properti ini mengatur warna teks tautan ketika pengguna menghover elemen tersebut. Dalam hal ini, warna teks tautan berubah menjadi #c72323, yang mewakili warna merah tertentu.
+a hover Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen a saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tautan.
+1. color: #c72323;: Properti ini mengatur warna teks tautan ketika pengguna menghover elemen tersebut. Dalam hal ini, warna teks tautan berubah menjadi #c72323, yang mewakili warna merah tertentu.
 
 ![halaman utama](./imgsrs/9.jpg)
 
@@ -327,6 +327,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/10.jpg)
 
+containerbook adalah nama class yang akan digunakan untuk mengatur tata letak elemen yang menggunakan class ini.
 1.	text-align: center;: Baris ini mengatur alignment (penyelarasan) teks dalam elemen-elemen dengan class "containerbook" menjadi terpusat (centered). Ini berarti teks dalam elemen tersebut akan ditampilkan secara horizontal dalam keadaan terpusat.
 2.	display: inline-block;: Baris ini mengatur properti display elemen-elemen dengan class "containerbook" menjadi "inline-block." Ini membuat elemen tersebut memiliki perilaku seperti elemen inline, sehingga mereka dapat tampil berdampingan, tetapi juga memungkinkan  untuk menentukan lebar dan tinggi untuk elemen tersebut. Ini sering digunakan untuk membuat elemen-elemen tampil sebagai kotak (block-like) dalam konten yang bersifat inline.
 3.	margin-left: 47px;: Ini menambahkan margin (ruang kosong) di sebelah kiri elemen-elemen dengan class "containerbook" sebesar 47 piksel. Hal ini menciptakan ruang di sebelah kiri elemen, sehingga elemen tersebut akan tergeser dari konten sebelah kiri.
@@ -336,9 +337,9 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/11.jpg)
 
-1.	.containerbook img: Ini adalah selector CSS yang menargetkan semua elemen gambar (<img>) yang berada dalam elemen-elemen dengan class "containerbook." Dengan kata lain, ini akan memengaruhi ukuran gambar-gambar yang berada di dalam elemen-elemen tersebut.
-2.	width: 170px;: Baris ini mengatur lebar gambar menjadi 170 piksel. Ini memaksa semua gambar di dalam elemen "containerbook" untuk memiliki lebar yang sama, yaitu 170 piksel.
-3.	height: 280px;: Ini mengatur tinggi gambar menjadi 280 piksel. Sama seperti lebar, ini memaksa semua gambar di dalam elemen "containerbook" memiliki tinggi yang sama, yaitu 280 piksel.
+containerbook img: Ini adalah selector CSS yang menargetkan semua elemen gambar (img) yang berada dalam elemen-elemen dengan class "containerbook." Dengan kata lain, ini akan memengaruhi ukuran gambar-gambar yang berada di dalam elemen-elemen tersebut.
+1. width: 170px;: Baris ini mengatur lebar gambar menjadi 170 piksel. Ini memaksa semua gambar di dalam elemen "containerbook" untuk memiliki lebar yang sama, yaitu 170 piksel.
+2. height: 280px;: Ini mengatur tinggi gambar menjadi 280 piksel. Sama seperti lebar, ini memaksa semua gambar di dalam elemen "containerbook" memiliki tinggi yang sama, yaitu 280 piksel.
 
 ![halaman utama](./imgsrs/12.jpg)
 
@@ -357,14 +358,14 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/14.jpg)
 
-1.	td a: Ini adalah selector CSS yang mengarah pada tautan (<a>) yang berada dalam sel-sel tabel (<td>). Dengan kata lain, kode ini akan memengaruhi tampilan semua tautan yang berada dalam sel-sel tabel.
+td a adalah selector CSS yang mengarah pada tautan a yang berada dalam sel-sel tabel td. Dengan kata lain, kode ini akan memengaruhi tampilan semua tautan yang berada dalam sel-sel tabel.
 2.	color: white;: Baris ini mengatur warna teks dari tautan yang berada dalam sel-sel tabel menjadi putih. Ini akan mengubah warna teks tautan menjadi putih, sehingga tautan tersebut akan terlihat dengan warna putih.
 3.	font-size: small;: Ini mengatur ukuran font dari tautan yang berada dalam sel-sel tabel menjadi "small." Ini adalah nilai kata kunci yang akan membuat ukuran font lebih kecil daripada ukuran font default. Seberapa tepat ukuran "small" akan tergantung pada setelan font default browser.
 
 ![halaman utama](./imgsrs/15.jpg)
 
-1.	td a:hover: Ini adalah selector CSS yang mengarah pada tautan yang berada dalam sel-sel tabel (<td>) ketika kursor mouse berada di atas tautan tersebut (dalam keadaan hover). Dengan kata lain, kode ini akan memengaruhi tampilan tautan hanya saat pengguna mengarahkan kursor mouse ke atasnya.
-2.	color: #8d8b8b;: Baris ini mengatur warna teks tautan saat tautan berada dalam keadaan hover. Warna teks diatur menjadi "#8d8b8b," yang merupakan nilai warna heksadesimal. Ini berarti ketika pengguna mengarahkan kursor mouse ke tautan dalam sel-sel tabel, warna teks tautan akan berubah menjadi abu-abu tua.
+td a hover adalah selector CSS yang mengarah pada tautan yang berada dalam sel-sel tabel td ketika kursor mouse berada di atas tautan tersebut (dalam keadaan hover). Dengan kata lain, kode ini akan memengaruhi tampilan tautan hanya saat pengguna mengarahkan kursor mouse ke atasnya.
+1. color: #8d8b8b;: Baris ini mengatur warna teks tautan saat tautan berada dalam keadaan hover. Warna teks diatur menjadi "#8d8b8b," yang merupakan nilai warna heksadesimal. Ini berarti ketika pengguna mengarahkan kursor mouse ke tautan dalam sel-sel tabel, warna teks tautan akan berubah menjadi abu-abu tua.
 
 ![halaman utama](./imgsrs/16.jpg)
 
@@ -411,16 +412,16 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/22.jpg)
 
-1.	border: 0px solid #000000; Properti ini mengatur batas (border) dari elemen <th>. Dalam hal ini, nilai lebar batas (0px) menghilangkan batas sama sekali, sehingga tidak ada garis batas yang akan ditampilkan di sekitar sel header tabel. Warna batas ditentukan dengan kode warna "#000000," yang adalah hitam. Namun, karena lebar batasnya adalah 0 piksel, warna batas ini tidak akan terlihat.
-2.	padding: 6px; Properti ini mengatur jarak dalam elemen <th> antara kontennya dan batas elemen. Dalam hal ini, elemen <th> akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
-3.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen <th>. Dalam hal ini, teks di dalam elemen <th> akan disusun ke kiri. Ini berarti teks dalam sel header tabel akan ditampilkan dengan rata kiri.
+1.	border: 0px solid #000000; Properti ini mengatur batas (border) dari elemen th. Dalam hal ini, nilai lebar batas (0px) menghilangkan batas sama sekali, sehingga tidak ada garis batas yang akan ditampilkan di sekitar sel header tabel. Warna batas ditentukan dengan kode warna "#000000," yang adalah hitam. Namun, karena lebar batasnya adalah 0 piksel, warna batas ini tidak akan terlihat.
+2.	padding: 6px; Properti ini mengatur jarak dalam elemen th antara kontennya dan batas elemen. Dalam hal ini, elemen th akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
+3.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen th. Dalam hal ini, teks di dalam elemen th akan disusun ke kiri. Ini berarti teks dalam sel header tabel akan ditampilkan dengan rata kiri.
 
 ![halaman utama](./imgsrs/23.jpg)
 
 1.	border: 0px solid #000000; Properti ini mengatur batas (border) dari elemen <td>. Dalam hal ini, nilai lebar batas (0px) menghilangkan batas sama sekali, sehingga tidak ada garis batas yang akan ditampilkan di sekitar sel data tabel. Warna batas ditentukan dengan kode warna "#000000," yang adalah hitam. Namun, karena lebar batasnya adalah 0 piksel, warna batas ini tidak akan terlihat.
-2.	font-size: small; Properti ini mengatur ukuran font teks dalam elemen <td>. Nilai "small" mengindikasikan ukuran font yang lebih kecil daripada ukuran font default. Ini bergantung pada pengaturan ukuran font dalam browser pengguna. Penggunaan "small" dapat membuat teks dalam sel data tabel lebih kecil dan lebih cocok untuk tampilan yang lebih padat.
-3.	padding: 6px; Properti ini mengatur jarak dalam elemen <td> antara kontennya dan batas elemen. Dalam hal ini, elemen <td> akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
-4.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen <td>. Dalam hal ini, teks di dalam elemen <td> akan disusun ke kiri. Ini berarti teks dalam sel data tabel akan ditampilkan dengan rata kiri.
+2.	font-size: small; Properti ini mengatur ukuran font teks dalam elemen td. Nilai "small" mengindikasikan ukuran font yang lebih kecil daripada ukuran font default. Ini bergantung pada pengaturan ukuran font dalam browser pengguna. Penggunaan "small" dapat membuat teks dalam sel data tabel lebih kecil dan lebih cocok untuk tampilan yang lebih padat.
+3.	padding: 6px; Properti ini mengatur jarak dalam elemen td antara kontennya dan batas elemen. Dalam hal ini, elemen td akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
+4.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen td. Dalam hal ini, teks di dalam elemen <td> akan disusun ke kiri. Ini berarti teks dalam sel data tabel akan ditampilkan dengan rata kiri.
 
 ![halaman utama](./imgsrs/24.jpg)
 
@@ -519,7 +520,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 
 
-**Penjelasan JavaScript**
+####**Penjelasan JavaScript**
 
 ![halaman utama](./imgsrs/js.png)
 
