@@ -151,75 +151,139 @@ Pada bagian halaman Login menggunakan tags
 
 ![halaman utama](./imgsrs/1.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	header: Ini adalah pemilih CSS yang menargetkan elemen HTML <header>. Semua aturan CSS ini akan diterapkan pada elemen <header> dalam dokumen HTML.
+2.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen <header>. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
+3.	color: #000000;: Ini mengatur warna teks dalam elemen <header>. Warna teks diatur menjadi hitam (#000000).
+4.	padding-left: 50px;: Ini menambahkan jarak (padding) di sisi kiri elemen <header>. Dalam hal ini, terdapat padding sebanyak 50 piksel di sisi kiri elemen.
+5.	width: 100%;: Properti ini memberi elemen <header> lebar 100% dari lebar elemen yang mengandungnya. Dengan kata lain, elemen <header> akan mengisi seluruh lebar elemen yang mengandungnya.
+6.	display: flex;: Ini mengatur elemen <header> untuk menggunakan model tata letak fleksibel. Ini memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen di dalamnya.
+7.	position: fixed;: Dengan properti ini, elemen <header> akan memiliki posisi tetap di layar. Artinya, elemen ini akan tetap terlihat di atas layar saat halaman digulir.
+8.	justify-content: space-between;: Ini adalah salah satu properti yang digunakan dalam model tata letak fleksibel. Dalam hal ini, elemen-elemen di dalam elemen <header> akan disebar sejauh mungkin di dalam ruang horizontal, sehingga ada ruang kosong di antara elemen-elemen tersebut.
+9.	align-items: center;: Ini juga merupakan properti dari model tata letak fleksibel. Ini mengatur elemen-elemen di dalam elemen <header> agar terpusat secara vertikal, sehingga mereka akan berada di tengah vertikal elemen <header>.
+10.	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);: Ini menambahkan bayangan (shadow) pada elemen <header>. Bayangan ini adalah bayangan dengan warna hitam (rgba(0, 0, 0, 0.1)) yang memiliki ketebalan 5 piksel. Bayangan ini memberikan efek visual yang sedikit menebalkan elemen saat ditempatkan di atas elemen lain.
+11.	z-index: 9999;: Properti ini mengatur indeks z (z-index) elemen <header>. Ini digunakan untuk mengendalikan tumpukan elemen yang tumpang tindih. Semakin besar nilai indeks z, semakin tinggi elemen akan muncul di atas elemen-elemen lain dalam dokumen.
 
 ![halaman utama](./imgsrs/2.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	nav: Ini adalah pemilih CSS yang menargetkan elemen HTML <nav>. Semua aturan CSS ini akan diterapkan pada elemen <nav> dalam dokumen HTML.
+2.	padding-right: 100px;: Properti ini menambahkan jarak (padding) di sisi kanan elemen `<nav>. Dalam hal ini, terdapat padding sebanyak 100 piksel di sisi kanan elemen.
 
 ![halaman utama](./imgsrs/3.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	nav ul a button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
+•	nav: Merujuk pada elemen <nav>.
+•	ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+•	a: Merujuk pada elemen-elemen <a> (tautan) yang berada dalam elemen-elemen <ul>.
+•	button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <a>.
+2.	border: none;: Ini menghilangkan batas (border) dari elemen-elemen yang dipilih. Dengan properti ini, elemen-elemen tersebut tidak akan memiliki garis batas.
+3.	width: 130px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 130 piksel.
+4.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
+5.	margin-right: 10px;: Ini menambahkan jarak (margin) sebesar 10 piksel di sisi kanan elemen-elemen yang dipilih. Ini akan memberikan jarak antara elemen-elemen yang berdekatan dalam elemen <ul>.
+6.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
+7.	border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
+8.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
 
 ![halaman utama](./imgsrs/4.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	nav ul button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
+•	nav: Merujuk pada elemen <nav>.
+•	ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+•	button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>.
+2.	width: 100px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 100 piksel.
+3.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
+4.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
+5.	border-color: #c99999;: Properti ini mengatur warna batas (border) elemen-elemen yang dipilih. Dalam hal ini, warna batas ditentukan sebagai #c99999, yang mewakili warna merah muda yang tertentu.
+6.	border-radius: 10px;: Ini mengatur sudut elemen-elemen yang dipilih sehingga memiliki sudut melengkung dengan jari-jari sekitar 10 piksel. Ini memberikan efek estetis sudut melengkung pada elemen.
+7.	background-color: #eee7e7;: Properti ini mengatur warna latar belakang elemen-elemen yang dipilih. Dalam hal ini, latar belakang akan berwarna abu-abu muda (#eee7e7).
 
 ![halaman utama](./imgsrs/5.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	ul: Ini adalah pemilih CSS yang menargetkan elemen-elemen HTML <ul>. Semua aturan CSS ini akan diterapkan pada elemen-elemen <ul> dalam dokumen HTML.
+2.	display: flex;: Properti ini mengatur elemen-elemen <ul> untuk menggunakan model tata letak fleksibel. Dengan menggunakan display: flex;, elemen-elemen dalam daftar tak terurut akan mengikuti model tata letak fleksibel, yang memungkinkan pengaturan tata letak yang lebih kompleks dengan elemen-elemen dalam daftar tersebut.
 
 ![halaman utama](./imgsrs/6.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	button:hover: Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen <button> saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tombol.
+2.	background-color: #c99999;: Properti ini mengatur warna latar belakang elemen <button> ketika pengguna menghover elemen tersebut. Dalam hal ini, warna latar belakang berubah menjadi #c99999, yang mewakili warna merah muda yang tertentu.
+3.	transition: 0.4s;: Properti ini mengatur transisi atau animasi ketika ada perubahan dalam properti-properti CSS. Dalam konteks ini, transisi 0.4 detik (0.4s) akan diterapkan ketika warna latar belakang elemen <button> berubah. Ini berarti perubahan warna latar belakang akan terjadi dengan efek animasi selama 0.4 detik, memberikan pengalaman hover yang lebih halus.
 
 ![halaman utama](./imgsrs/7.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	a: Ini adalah pemilih CSS yang menargetkan semua elemen tautan <a> dalam dokumen. Aturan ini akan diterapkan pada semua tautan dalam halaman web.
+2.	text-decoration: none;: Properti ini menghilangkan dekorasi teks default dari tautan, seperti garis bawah yang biasanya ada pada tautan. Dengan mengatur text-decoration menjadi none, tautan tidak akan memiliki dekorasi teks, sehingga tautan akan terlihat seperti teks biasa tanpa garis bawah.
+3.	color: #000000;: Properti ini mengatur warna teks tautan. Dalam hal ini, warna teks tautan ditentukan sebagai hitam (#000000).
+4.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam tautan menjadi 16 piksel.
 
 ![halaman utama](./imgsrs/8.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	a:hover: Ini adalah pemilih pseudo-class yang menargetkan elemen-elemen <a> saat pengguna mengarahkan kursor mouse ke atasnya (hover). Aturan ini akan diterapkan saat pengguna berinteraksi dengan tautan.
+2.	color: #c72323;: Properti ini mengatur warna teks tautan ketika pengguna menghover elemen tersebut. Dalam hal ini, warna teks tautan berubah menjadi #c72323, yang mewakili warna merah tertentu.
 
 ![halaman utama](./imgsrs/9.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	font-family: Arial, sans-serif;: Baris ini mengatur jenis font yang akan digunakan untuk teks dalam elemen "body." Itu berarti browser akan mencoba menggunakan font "Arial" jika tersedia di komputer pengguna. Jika "Arial" tidak tersedia, maka browser akan beralih ke jenis font sans-serif yang merupakan jenis font generik yang mudah dibaca. Ini memastikan bahwa teks ditampilkan dengan jenis font yang baik meskipun "Arial" tidak tersedia.
+2.	margin: 0;: Baris ini mengatur margin (ruang kosong) dari elemen "body" menjadi 0. Ini menghilangkan margin default di sekitar konten "body," sehingga kontennya akan mencapai tepi tampilan browser.
+3.	background-color: #e2d5d5;: Baris ini mengatur warna latar belakang (background) dari elemen "body" ke nilai warna heksadesimal yang diberikan (#e2d5d5). Ini mengubah warna latar belakang keseluruhan halaman web menjadi warna merah muda-beige yang lembut.
 
 ![halaman utama](./imgsrs/10.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	text-align: center;: Baris ini mengatur alignment (penyelarasan) teks dalam elemen-elemen dengan class "containerbook" menjadi terpusat (centered). Ini berarti teks dalam elemen tersebut akan ditampilkan secara horizontal dalam keadaan terpusat.
+2.	display: inline-block;: Baris ini mengatur properti display elemen-elemen dengan class "containerbook" menjadi "inline-block." Ini membuat elemen tersebut memiliki perilaku seperti elemen inline, sehingga mereka dapat tampil berdampingan, tetapi juga memungkinkan Anda untuk menentukan lebar dan tinggi untuk elemen tersebut. Ini sering digunakan untuk membuat elemen-elemen tampil sebagai kotak (block-like) dalam konten yang bersifat inline.
+3.	margin-left: 47px;: Ini menambahkan margin (ruang kosong) di sebelah kiri elemen-elemen dengan class "containerbook" sebesar 47 piksel. Hal ini menciptakan ruang di sebelah kiri elemen, sehingga elemen tersebut akan tergeser dari konten sebelah kiri.
+4.	background-color: #ffffff;: Baris ini mengatur warna latar belakang (background color) dari elemen-elemen dengan class "containerbook" menjadi putih (#ffffff). Ini akan memberikan elemen-elemen tersebut latar belakang berwarna putih.
+5.	border-radius: 5px;: Ini membulatkan sudut-sudut elemen-elemen dengan class "containerbook." Properti border-radius mengatur jari-jari sudut elemen sebesar 5 piksel, memberikan elemen tersebut sudut-sudut yang sedikit dibulatkan.
+6.	box-shadow: 0 0 5px rgba(0, 0, 0, 0.582);: Baris ini menambahkan efek bayangan (shadow) pada elemen-elemen dengan class "containerbook." Properti box-shadow menentukan offset horizontal (0), offset vertikal (0), radius blur (5px), dan warna dalam format RGBA (0, 0, 0, 0.582). Ini menciptakan efek bayangan yang lembut di sekitar elemen, membuat elemen tersebut tampak sedikit lebih terangkat dari latar belakang.
 
 ![halaman utama](./imgsrs/11.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	.containerbook img: Ini adalah selector CSS yang menargetkan semua elemen gambar (<img>) yang berada dalam elemen-elemen dengan class "containerbook." Dengan kata lain, ini akan memengaruhi ukuran gambar-gambar yang berada di dalam elemen-elemen tersebut.
+2.	width: 170px;: Baris ini mengatur lebar gambar menjadi 170 piksel. Ini memaksa semua gambar di dalam elemen "containerbook" untuk memiliki lebar yang sama, yaitu 170 piksel.
+3.	height: 280px;: Ini mengatur tinggi gambar menjadi 280 piksel. Sama seperti lebar, ini memaksa semua gambar di dalam elemen "containerbook" memiliki tinggi yang sama, yaitu 280 piksel.
 
 ![halaman utama](./imgsrs/12.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	margin: 0 auto;: Baris ini mengatur margin (ruang kosong) dari elemen-elemen dengan class "centertabel." Secara khusus, ini mengatur margin atas dan bawah menjadi 0 (tidak ada margin) dan margin horizontal (kiri dan kanan) menjadi "auto." Mengatur margin horizontal menjadi "auto" secara efektif akan mengarahkan elemen-elemen tersebut menjadi terpusat secara horizontal dalam kontainer induknya. Ini adalah cara umum untuk secara horizontal mengatur elemen-elemen.
+2.	border: 0px solid black;: Baris ini mengatur properti border (garis batas) dari elemen-elemen dengan class "centertabel." Properti ini memiliki tiga bagian. Pertama, lebar border diatur menjadi 0 piksel (0px), yang berarti tidak ada garis batas. Kedua, jenis border diatur menjadi "solid," yang berarti garis batasnya solid (tanpa pola). Ketiga, warna border diatur menjadi hitam (black), sehingga jika ada garis batas (meskipun lebarnya 0 piksel), warnanya akan hitam.
 
 ![halaman utama](./imgsrs/13.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	width: 290px; dan height: 290px;: Baris ini mengatur lebar dan tinggi elemen dengan class "containerform" masing-masing menjadi 290 piksel. Ini membatasi ukuran elemen tersebut, menjadikannya kotak dengan lebar dan tinggi tetap.
+2.	margin: 20px auto;: Ini mengatur margin elemen. Margin atas dan bawah diatur menjadi 20 piksel, sementara margin horizontal (kiri dan kanan) diatur menjadi "auto." Dengan mengatur margin horizontal menjadi "auto," elemen tersebut akan terpusat secara horizontal dalam kontainer induknya.
+3.	padding: 20px;: Ini mengatur padding (ruang dalam elemen di sekitar kontennya) menjadi 20 piksel. Ini memberikan elemen dengan class "containerform" ruang tambahan di dalamnya sekitar kontennya.
+4.	border-radius: 15px;: Baris ini mengatur radius sudut elemen dengan class "containerform" menjadi 15 piksel. Ini memberikan elemen sudut-sudut yang dibulatkan, menciptakan efek estetika yang lembut.
+5.	color: rgb(255, 255, 255);: Ini mengatur warna teks dalam elemen tersebut menjadi putih. Nilai "rgb(255, 255, 255)" mewakili warna putih, dengan nilai merah, hijau, dan biru setiap satu maksimal (255) yang menunjukkan warna putih murni.
+6.	background-color: #a34242d0;: Baris ini mengatur warna latar belakang elemen dengan class "containerform" menggunakan format warna heksadesimal (#a34242d0). Ini memberikan elemen latar belakang berwarna merah tua dengan sedikit transparansi.
+7.	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);: Ini menambahkan efek bayangan pada elemen. Efek bayangan memiliki tiga komponen: offset horizontal (0), offset vertikal (0), dan radius blur (5px). Warna bayangan ditentukan dalam format RGBA (0, 0, 0, 0.1), yang mewakili bayangan berwarna hitam dengan tingkat transparansi rendah.
 
 ![halaman utama](./imgsrs/14.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	td a: Ini adalah selector CSS yang mengarah pada tautan (<a>) yang berada dalam sel-sel tabel (<td>). Dengan kata lain, kode ini akan memengaruhi tampilan semua tautan yang berada dalam sel-sel tabel.
+2.	color: white;: Baris ini mengatur warna teks dari tautan yang berada dalam sel-sel tabel menjadi putih. Ini akan mengubah warna teks tautan menjadi putih, sehingga tautan tersebut akan terlihat dengan warna putih.
+3.	font-size: small;: Ini mengatur ukuran font dari tautan yang berada dalam sel-sel tabel menjadi "small." Ini adalah nilai kata kunci yang akan membuat ukuran font lebih kecil daripada ukuran font default. Seberapa tepat ukuran "small" akan tergantung pada setelan font default browser.
 
 ![halaman utama](./imgsrs/15.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	td a:hover: Ini adalah selector CSS yang mengarah pada tautan yang berada dalam sel-sel tabel (<td>) ketika kursor mouse berada di atas tautan tersebut (dalam keadaan hover). Dengan kata lain, kode ini akan memengaruhi tampilan tautan hanya saat pengguna mengarahkan kursor mouse ke atasnya.
+2.	color: #8d8b8b;: Baris ini mengatur warna teks tautan saat tautan berada dalam keadaan hover. Warna teks diatur menjadi "#8d8b8b," yang merupakan nilai warna heksadesimal. Ini berarti ketika pengguna mengarahkan kursor mouse ke tautan dalam sel-sel tabel, warna teks tautan akan berubah menjadi abu-abu tua.
 
 ![halaman utama](./imgsrs/16.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	display: flex;: Baris ini mengatur elemen-elemen dengan class "halamanbuku" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex," Anda mengubah elemen-elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu atau beberapa baris sesuai kebutuhan.
+2.	flex-wrap: wrap;: Properti flex-wrap mengatur cara elemen-elemen anak dalam kontainer flex tersebut akan dibungkus jika melebihi lebar kontainer. Dalam kasus ini, nilai "wrap" berarti jika elemen-elemen anak melebihi lebar kontainer, mereka akan dibungkus ke baris atau kolom berikutnya. Ini memungkinkan elemen-elemen tersebut untuk mengatur ulang secara otomatis dalam beberapa baris jika perlu.
+3.	gap: 15px;: Ini mengatur jarak (spacing) antara elemen-elemen anak dalam kontainer flex. Jarak ini didefinisikan sebagai 15 piksel. Ini berlaku baik secara horizontal maupun vertikal, sehingga elemen-elemen akan memiliki ruang 15 piksel di antara mereka.
 
 ![halaman utama](./imgsrs/17.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	display: flex;: Baris ini mengatur elemen dengan class "judulhalaman" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex," Anda mengubah elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu baris (secara default) atau kolom, dan memberikan fleksibilitas dalam penataan elemen anak.
+2.	justify-content: space-between;: Properti justify-content mengatur cara elemen anak dalam kontainer flex akan didistribusikan secara horizontal. Dengan nilai "space-between," elemen-elemen anak akan diposisikan pada ujung kanan dan kiri kontainer dengan jarak yang sebanyak mungkin di antara mereka. Ini menciptakan tampilan elemen-elemen anak yang terletak di kedua ujung horisontal kontainer, memberikan ruang kosong di antara mereka.
+3.	padding-right: 20px;, padding-left: 20px;, padding-top: 100px;, padding-bottom: 20px;: Ini mengatur jarak (padding) dari elemen dengan class "judulhalaman." Padding digunakan untuk menambahkan ruang di sekitar elemen tersebut. Properti padding-right dan padding-left menambahkan padding sebanyak 20 piksel di sisi kanan dan kiri elemen, sementara padding-top menambahkan 100 piksel di bagian atas dan padding-bottom menambahkan 20 piksel di bagian bawah elemen.
 
 ![halaman utama](./imgsrs/18.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	background-color: #dfc7c7;: Ini mengatur warna latar belakang (background color) dari elemen dengan class "btnlogin." Nilai warna heksadesimal #dfc7c7 adalah warna merah muda atau beige yang lembut. Ini akan memberikan elemen latar belakang dengan warna tersebut.
+2.	width: 180px;: Baris ini mengatur lebar elemen dengan class "btnlogin" menjadi 180 piksel. Ini memberikan elemen lebar tetap sehingga elemen tersebut akan memiliki lebar yang konsisten.
+3.	height: 25px;: Ini mengatur tinggi elemen dengan class "btnlogin" menjadi 25 piksel. Ini memberikan elemen tinggi yang tetap, sehingga elemen tersebut akan memiliki tinggi yang konsisten.
+4.	border-radius: 0;: Properti border-radius digunakan untuk mengatur radius sudut elemen. Dalam hal ini, nilai 0 menghilangkan sudut-sudut yang dibulatkan sehingga elemen akan memiliki sudut yang tajam atau persegi. Ini akan menghilangkan efek sudut-sudut yang bulat yang biasanya diberikan oleh default.
 
 ![halaman utama](./imgsrs/19.jpg)
 
