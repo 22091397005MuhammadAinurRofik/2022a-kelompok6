@@ -120,12 +120,12 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 
 3.5 Desain Graphical User Interface
 
-####**Penjelasan HTML**
+####Penjelasan HTML
 
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
 
-1. tag ***title** digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
+1. tag **title** digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html1.jpg)
@@ -238,7 +238,7 @@ Contoh penggunaan:
 
 
 
-####**Penjelasan CSS**
+####Penjelasan CSS
 
 ![halaman utama](./imgsrs/1.jpg)
 
@@ -359,8 +359,8 @@ containerbook img: Ini adalah selector CSS yang menargetkan semua elemen gambar 
 ![halaman utama](./imgsrs/14.jpg)
 
 td a adalah selector CSS yang mengarah pada tautan a yang berada dalam sel-sel tabel td. Dengan kata lain, kode ini akan memengaruhi tampilan semua tautan yang berada dalam sel-sel tabel.
-2.	color: white;: Baris ini mengatur warna teks dari tautan yang berada dalam sel-sel tabel menjadi putih. Ini akan mengubah warna teks tautan menjadi putih, sehingga tautan tersebut akan terlihat dengan warna putih.
-3.	font-size: small;: Ini mengatur ukuran font dari tautan yang berada dalam sel-sel tabel menjadi "small." Ini adalah nilai kata kunci yang akan membuat ukuran font lebih kecil daripada ukuran font default. Seberapa tepat ukuran "small" akan tergantung pada setelan font default browser.
+1. color: white;: Baris ini mengatur warna teks dari tautan yang berada dalam sel-sel tabel menjadi putih. Ini akan mengubah warna teks tautan menjadi putih, sehingga tautan tersebut akan terlihat dengan warna putih.
+2. font-size: small;: Ini mengatur ukuran font dari tautan yang berada dalam sel-sel tabel menjadi "small." Ini adalah nilai kata kunci yang akan membuat ukuran font lebih kecil daripada ukuran font default. Seberapa tepat ukuran "small" akan tergantung pada setelan font default browser.
 
 ![halaman utama](./imgsrs/15.jpg)
 
@@ -520,7 +520,7 @@ td a hover adalah selector CSS yang mengarah pada tautan yang berada dalam sel-s
 
 
 
-####**Penjelasan JavaScript**
+####Penjelasan JavaScript
 
 ![halaman utama](./imgsrs/js.png)
 
