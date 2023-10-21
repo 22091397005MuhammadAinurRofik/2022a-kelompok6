@@ -125,25 +125,25 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
 
-<title>: Elemen <title> digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
+1. tag ***title** digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html1.jpg)
 
 
-<link rel="stylesheet" type="text/css" href="style.css">: Ini adalah elemen <link> yang menghubungkan file CSS eksternal ke halaman HTML. Atribut href adalah URL file CSS, dan atribut type menunjukkan tipe file tersebut.
+2. tag **link** adalah elemen link yang menghubungkan file CSS eksternal ke halaman HTML. Atribut href adalah URL file CSS, dan atribut type menunjukkan tipe file tersebut.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html2.jpg)
 
 
-<header>: Elemen <header> berisi elemen-elemen yang mewakili bagian atas halaman web, termasuk judul, navigasi, dan elemen lainnya.
+3. tag **header** berisi elemen-elemen yang mewakili bagian atas halaman web, termasuk judul, navigasi, dan elemen lainnya.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html3.jpg)
 
 
-<h1>, <h3>, <h4>, <h5>: Ini adalah elemen heading yang digunakan untuk menampilkan judul dan subjudul dengan tingkat kepentingan yang berbeda. <h1> adalah yang paling penting dan biasanya digunakan untuk judul utama.
+4. tag **h1**, **h3**, **h4**, **h5** adalah elemen heading yang digunakan untuk menampilkan judul dan subjudul dengan tingkat kepentingan yang berbeda. h1 adalah yang paling penting dan biasanya digunakan untuk judul utama.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html4.jpg)
@@ -153,25 +153,25 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html6.jpg)
 
 
-<nav>: Elemen <nav> digunakan untuk mengelompokkan elemen navigasi, seperti tautan ke halaman web lain atau menu.
+5. tag **nav** digunakan untuk mengelompokkan elemen navigasi, seperti tautan ke halaman web lain atau menu.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html7.jpg)
 
 
-<ul>: Elemen <ul> adalah daftar tak terurut (unordered list) yang digunakan untuk membuat daftar tautan atau elemen lain.
+6. tag **ul** adalah daftar tak terurut (unordered list) yang digunakan untuk membuat daftar tautan atau elemen lain.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html8.jpg)
 
 
-<a>: Elemen <a> adalah elemen anchor (tautan) yang digunakan untuk menghubungkan ke halaman web lain. Dalam kode Anda, tautan ini digunakan untuk navigasi.
+7. tag **a** adalah elemen anchor (tautan) yang digunakan untuk menghubungkan ke halaman web lain. Dalam kode, tautan ini digunakan untuk navigasi atau pun untuk menuju ke halaman lain.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html9.jpg)
 
 
-<button>: Elemen <button> adalah tombol yang digunakan untuk memicu tindakan tertentu, seperti navigasi atau tindakan JavaScript. Dalam kode Anda, tombol ini digunakan untuk navigasi dan tindakan seperti membuka popup.
+8. tag **button** adalah tombol yang digunakan untuk memicu tindakan tertentu, seperti navigasi atau tindakan JavaScript. Dalam kode Anda, tombol ini digunakan untuk navigasi dan tindakan seperti membuka popup.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html10.jpg)
@@ -179,31 +179,31 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html10.2.png)
 
 
-<div>: Elemen <div> adalah elemen umum yang digunakan untuk mengelompokkan dan menggantungkan elemen-elemen lain dalam blok.
+9. tag **div** adalah elemen umum yang digunakan untuk mengelompokkan dan menggantungkan elemen-elemen lain dalam blok.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html11.jpg)
 
 
-<span>: Elemen <span> digunakan untuk menerapkan gaya pada sebagian teks dalam elemen lain, seperti mengganti warna teks.
+10. tag **span** digunakan untuk menerapkan gaya pada sebagian teks dalam elemen lain, seperti mengganti warna teks.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html12.jpg)
 
 
-<img>: Elemen <img> digunakan untuk menampilkan gambar di halaman web. Atribut src adalah URL gambar.
+11. tag **img** digunakan untuk menampilkan gambar di halaman web. Atribut src adalah URL gambar.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html13.jpg)
 
 
-<fieldset>, <legend>: Elemen <fieldset> digunakan untuk mengelompokkan elemen formulir, dan elemen <legend> digunakan untuk memberi judul untuk kelompok tersebut. Dalam kode Anda, ini digunakan untuk mengelompokkan elemen-elemen formulir.
+12. tag **fieldset**, **legend** : **fieldset** digunakan untuk mengelompokkan elemen formulir, dan **legend** digunakan untuk memberi judul untuk kelompok tersebut. Dalam kode Anda, ini digunakan untuk mengelompokkan elemen-elemen formulir.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html14.jpg)
 
 
-<label>: Elemen <label> digunakan untuk memberi label pada elemen formulir, seperti input teks.
+13. tag **label** digunakan untuk memberi label pada elemen formulir, seperti input teks.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html15.jpg)
@@ -211,7 +211,7 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html16.jpg)
 
 
-<input>: Elemen <input> adalah elemen formulir yang digunakan untuk menerima masukan dari pengguna. Dalam kode Anda, ini digunakan untuk input email dan password.
+14. tag **input** adalah elemen formulir yang digunakan untuk menerima masukan dari pengguna. Dalam kode Anda, ini digunakan untuk input email dan password.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html17.jpg)
@@ -219,47 +219,24 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html18.jpg)
 
 
-<table>, <tr>, <td>, <th>: Elemen-elemen ini digunakan untuk membuat tabel dan sel dalam tabel. <table> adalah elemen tabel utama, <tr> adalah baris dalam tabel, <td> adalah sel data, dan <th> adalah sel header dalam tabel.
+16. tag **table**, **tr**, **td**, **th**: Elemen-elemen ini digunakan untuk membuat tabel dan sel dalam tabel. **table** adalah elemen tabel utama, **tr** adalah baris dalam tabel, **td** adalah sel data, dan **th** adalah sel header dalam tabel.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html19.jpg)
 
 
-<footer>: Elemen <footer> digunakan untuk informasi atau tautan di bagian bawah halaman.
+17. tag **footer** digunakan untuk informasi atau tautan di bagian bawah halaman.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html20.jpg)
 
 
-<script src="js.js"></script>: Elemen <script> digunakan untuk menghubungkan file JavaScript eksternal ke halaman HTML. Atribut src mengacu pada file JavaScript eksternal yang akan dijalankan pada halaman web.
+18. tag **script** digunakan untuk menghubungkan file JavaScript eksternal ke halaman HTML. Atribut src mengacu pada file JavaScript eksternal yang akan dijalankan pada halaman web.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html21.jpg)
 
 
-
-bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
-Pada header tersebut menggunakan tags
-
-1. **h1** untuk membuat nama web
-2. **span** untuk mengelompokkan Sebagian text kemudian diberi warna menggunakan style color.
-3. **nav** digunakan untuk menandai bagian dari sebuah halaman web yang berisi menu navigasi.
-4. **ul** digunakan untuk membuat daftar tak-terurut dari navigasi (unordered list).
-5. **a** digunakan untuk membuat tautan atau hyperlink. Ini memungkinkan Anda untuk menghubungkan halaman web atau sumber daya lain dengan halaman web saat ini.
-
-Pada bagian halaman Login menggunakan tags
-
-1. **div** untuk membuat container box pada halaman web.
-2. **Img** untuk menampilkan gambar pada web dengan menentukan sumber gambar dengan atribut src yang mengacu pada URL atau path file gambar.
-3. **fieldset** digunakan untuk mengelompokkan beberapa elemen formulir dalam satu kerangka, seperti digunakan untuk form login yang berisikan E-mail dan Password.
-4. **legend** digunakan sebagai judul atau keterangan untuk elemen formulir yang ada dalam <fieldset>.
-5. **tabel** untuk membuat tabel pada halaman web yang dimana dalam tabel tersebut digunakan untuk menampilkan dan Menyusun dalam bentuk baris dan kolom.
-6. **tr** digunakan untuk mendefinisikan baris dalam tabel.
-7. **th** digunakan untuk mendefinisikan sel header dalam tabel. Sel header digunakan untuk memberikan informasi tambahan tentang konten di dalam sel-sel yang terkait di baris atau kolom yang sama.
-8. **td** digunakan untuk mendefinisikan sela tau elemen data dalam tabel.
-9. **button** digunakan untuk membuat tombol yang dapat digunakan oleh pengguna, dapat berupa pengiriman formulir atau pun tidakan lainnya yang ingin dilakukan dalam halaman web.
-10. **h2** digunakan untuk menandai judul dengan ketebalan tingkat 2.
-11. **h3** digunakan untuk menandai judul dengan ketebalan tingkat 3.
 
 \*Penjelasan CSS
 
