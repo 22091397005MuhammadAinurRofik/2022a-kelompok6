@@ -262,10 +262,15 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/3.jpg)
 
 1.	nav ul a button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
-•	nav: Merujuk pada elemen <nav>.
-•	ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
-•	a: Merujuk pada elemen-elemen <a> (tautan) yang berada dalam elemen-elemen <ul>.
-•	button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <a>.
+
+nav: Merujuk pada elemen <nav>.
+
+ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+
+a: Merujuk pada elemen-elemen <a> (tautan) yang berada dalam elemen-elemen <ul>.
+
+button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <a>.
+
 2.	border: none;: Ini menghilangkan batas (border) dari elemen-elemen yang dipilih. Dengan properti ini, elemen-elemen tersebut tidak akan memiliki garis batas.
 3.	width: 130px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 130 piksel.
 4.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
@@ -277,9 +282,13 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/4.jpg)
 
 1.	nav ul button: Ini adalah urutan pemilih (selector) yang menargetkan elemen-elemen berlapis dalam dokumen HTML. Secara berurutan, ini berarti:
-•	nav: Merujuk pada elemen <nav>.
-•	ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
-•	button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>.
+
+nav: Merujuk pada elemen <nav>.
+
+ul: Merujuk pada elemen-elemen <ul> (daftar tak terurut) yang berada dalam elemen <nav>.
+
+button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>.
+
 2.	width: 100px;: Properti ini mengatur lebar elemen-elemen yang dipilih menjadi 100 piksel.
 3.	height: 30px;: Properti ini mengatur tinggi elemen-elemen yang dipilih menjadi 30 piksel.
 4.	font-size: 16px;: Properti ini mengatur ukuran font teks dalam elemen-elemen yang dipilih menjadi 16 piksel.
