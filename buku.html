@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1><span style="color: #53c73f">ON</span>BOOK.</h1>
+      <nav>
+        <ul>
+          <a href="#beranda"><button>Beranda</button></a>
+          <a href="#rekomendasi"><button>Rekomendasi</button></a>
+          <a href="#popular"><button>Popular</button></a>
+          <button onclick="openPopup('login')">Login</button>
+
+          <!-- Tambahkan form login -->
+          <div id="notif-login" class="notiflogin">
+            <div class="popup-login">
+              <!-- form login -->
+              <div class="containerform">
+                <span class="close-login" onclick="closePopup('login')">x</span>
+                <fieldset>
+                  <legend style="text-align: center">
+                    <img src="./image/kontak.png" width="50px" height="50px" />
+                  </legend>
+                  <table class="centertabel">
+                    <tr>
+                      <td><label for="email">E-mail:</label></td>
+                    </tr>
+                    <tr>
+                      <td><input type="text" name="email" id="email" /></td>
+                    </tr>
+                    <tr>
+                      <td><label for="password">Password:</label></td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <input type="password" name="password" id="password" />
+                      </td>
+                    </tr>
+                  </table>
+                  <table class="centertabel">
+                    <tr>
+                      <td><button class="btnlogin">LOGIN</button></td>
+                    </tr>
+                    <tr>
+                      <td><a href="#">Buat Akun?</a></td>
+                    </tr>
+                  </table>
+                </fieldset>
+              </div>
+            </div>
+          </div>
+          <!--  -->
+        </ul>
+      </nav>
+    </header>
+
+    <!-- halaman awal login -->
+    <!--  -->
+    <img src="./image/img2.jpg" width="1366px" id="beranda" />
+    <!--  -->
+    <!-- halaman rekomendasi -->
+    <div class="judulhalaman" id="rekomendasi">
+      <h3>REKOMENDASI</h3>
+      <h3>
+        <a
+          href="https://22091397005muhammadainurrofik.github.io/myproject/rekomendasi.html"
+          >Lihat Lainnya</a
+        >
+      </h3>
+    </div>
+    <div class="halamanbuku">
+      <!-- book1 -->
+
+      <div class="containerbook">
+        <img src="./image/book1.jpg" />
+        <h5>J.S. Khairen</h5>
+        <h4><strong>Melangkah </strong></h4>
+        <button class="btn" onclick="openPopup('book1')">BACA DESKRIPSI</button>
+
+        <!-- Tambahkan popup deskripsi buku -->
+        <div id="notif-book1" class="notif">
+          <div class="popup-content">
+            <span class="close" onclick="closePopup('book1')">x</span>
+            <h2>Deskripsi Buku</h2>
+            <p>Deskripsi buku "Melangkah"...</p>
+            <table>
+              <tr>
+                <th>Jumlah Halaman</th>
+                <th>Penerbit</th>
+              </tr>
+              <tr>
+                <td>368</td>
+                <td>Gramedia Widiasarana Indonesia</td>
+              </tr>
+              <tr>
+                <th>Tanggal Terbit</th>
+                <th>Bahasa</th>
+              </tr>
+              <tr>
+                <td>22 Mar 2020</td>
+                <td>Indonesia</td>
+              </tr>
+            </table>
+            <p>
+              Novel karya J. S Khairen yang berjudul Melangkah bertemakan
+              tentang petualangan di Indonesia. Tidak hanya itu, cerita dalam
+              novel ini juga mengutamakan kisah pahlawan. Berbeda dari
+              karya-karya yang sebelumnya, di novel ini Khairen memberi sedikit
+              imajinasi yang ia tanamkan. Terdapat 36 episode dan 5 babak.
+            </p>
+            <p>Sinopsis buku</p>
+            <p>
+              Listrik padam di seluruh Jawa dan Bali secara misterius. Ancaman
+              nyata kekuatan baru yang hendak menaklukkan Nusantara.
+            </p>
+            <p>
+              Saat yang sama, empat sahabat mendarat di Sumba, hanya untuk
+              mendapati nasib ratusan juta manusia ada di tangan mereka! Empat
+              mahasiswa ekonomi ini, harus bertarung melawan pasukan berkuda
+              yang bisa melontarkan listrik! Semua dipersulit oleh seorang
+              buronan tingkat tinggi bertopeng pahlawan yang punya rencana
+              mengerikan.
+            </p>
+            <p>
+              Ternyata pesan arwah nenek moyang itu benar-benar terwujud. “Akan
+              datang kegelapan yang berderap, bersama ribuan kuda raksasa di
+              kala malam. Mereka bangun setelah sekian lama, untuk menghancurkan
+              Nusantara. Seorang lelaki dan seorang perempuan ditakdirkan
+              membaurkan air di lautan dan api di pegunungan. Menyatukan tanah
+              yang menghujam, dan udara yang terhampar.”
+            </p>
+            <p>
+              Kisah tentang persahabatan, tentang jurang ego anak dan orangtua,
+              tentang menyeimbangkan logika dan perasaan. Juga tentang melangkah
+              menuju masa depan. Bahwa, apa pun yang menjadi luka masa lalu,
+              biarlah mengering bersama waktu.
+            </p>
+            <a href="https://www.gramedia.com/"
+              ><button class="btn">TOKO BUKU >>></button></a
+            >
+          </div>
+        </div>
+        <!--  -->
+      </div>
+
+      <!-- book2 -->
+
+      <div class="containerbook">
+        <img src="./image/book2.jpg" />
+        <h5>Leila S. Chudori</h5>
+        <h4><strong> Laut Bercerita </strong></h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book2')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book2" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book2')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Laut Bercerita"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book3 -->
+
+      <div class="containerbook">
+        <img src="./image/book3.jpg" />
+        <h5>Oh Su Hyang</h5>
+        <h4><strong> Bicara Itu Ada Seninya </strong></h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book3')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book3" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book3')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Bicara Itu Ada Seninya"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book4 -->
+
+      <div class="containerbook">
+        <img src="./image/book4.jpg" />
+        <h5>Almira Bastari</h5>
+        <h4><strong> Home Sweet Loan </strong></h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book4')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book4" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book4')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Home Sweet Loan"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book5 -->
+
+      <div class="containerbook">
+        <img src="./image/book5.jpg" />
+        <h5>Meira Anastasia</h5>
+        <h4><strong> Imperfect </strong></h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book5')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book5" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book5')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Imperfect"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!--  -->
+    </div>
+
+    <!-- halaman popular -->
+    <div class="judulhalaman" id="popular">
+      <h3>POPULAR</h3>
+      <h3>
+        <a
+          href="https://22091397005muhammadainurrofik.github.io/myproject/popular.html"
+          >Lihat Lainnya</a
+        >
+      </h3>
+    </div>
+    <div class="halamanbuku">
+      <!-- book6 -->
+
+      <div class="containerbook">
+        <img src="./image/book6.jpg" />
+        <h5>Mark Manson</h5>
+        <h4>
+          <strong>Sebuah Seni untuk <br />Bersikap Bodo Amat</strong>
+        </h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book6')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book6" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book6')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Sebuah Seni untuk Bersikap Bodo Amat"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book7 -->
+
+      <div class="containerbook">
+        <img src="./image/book7.jpg" />
+        <h5>Reinhard Damopolii</h5>
+        <h4>
+          <strong> Tuhan, Aku Ingin <br />Tetap Hidup </strong>
+        </h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book7')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book7" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book7')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>
+                Deskripsi buku "Tuhan, Aku Ingin Tetap Hidup: Spinal Cord Injury
+                Melumpuhkan Kakiku"...
+              </p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book8 -->
+
+      <div class="containerbook">
+        <img src="./image/book8.jpg" />
+        <h5>MORGAN HOUSEL</h5>
+        <h4>
+          <strong> The Psychology <br />of Money </strong>
+        </h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book8')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book8" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book8')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "The Psychology of Money"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book9 -->
+
+      <div class="containerbook">
+        <img src="./image/book9.jpg" />
+        <h5>Leila S. Chudori</h5>
+        <h4><strong> Namaku Alam </strong></h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book9')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book9" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book9')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Namaku Alam"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+
+      <!-- book10 -->
+
+      <div class="containerbook">
+        <img src="./image/book10.jpg" />
+        <h5>Okky Madasari</h5>
+        <h4>
+          <strong>
+            Mata dan Nyala <br />
+            Api Purba
+          </strong>
+        </h4>
+        <div class="tombol">
+          <button class="btn" onclick="openPopup('book10')">
+            BACA DESKRIPSI
+          </button>
+
+          <!-- Tambahkan popup deskripsi buku -->
+          <div id="notif-book10" class="notif">
+            <div class="popup-content">
+              <span class="close" onclick="closePopup('book10')">x</span>
+              <h2>Deskripsi Buku</h2>
+              <p>Deskripsi buku "Mata dan Nyala Api Purba"...</p>
+            </div>
+          </div>
+          <!--  -->
+        </div>
+      </div>
+      <!--  -->
+    </div>
+
+    <div class="footer"><footer></footer></div>
+    <script src="js.js"></script>
+  </body>
+</html>
