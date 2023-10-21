@@ -430,9 +430,9 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/25.jpg)
 
-1.	padding-top: 20px; Properti ini mengatur jarak atas (padding atas) antara batas atas elemen <h3> dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di atas teks dalam elemen <h3>.
-2.	padding-bottom: 20px; Properti ini mengatur jarak bawah (padding bawah) antara batas bawah elemen <h3> dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di bawah teks dalam elemen <h3>.
-3.	color: white; Properti ini mengatur warna teks dalam elemen <h3> menjadi putih. Dengan demikian, teks dalam elemen <h3> yang berada dalam elemen dengan kelas ".pagelihatlainnya" akan ditampilkan dengan warna teks putih.
+1.	padding-top: 20px; Properti ini mengatur jarak atas (padding atas) antara batas atas elemen h3 dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di atas teks dalam elemen h3.
+2.	padding-bottom: 20px; Properti ini mengatur jarak bawah (padding bawah) antara batas bawah elemen h3 dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di bawah teks dalam elemen h3.
+3.	color: white; Properti ini mengatur warna teks dalam elemen h3 menjadi putih. Dengan demikian, teks dalam elemen h3 yang berada dalam elemen dengan kelas ".pagelihatlainnya" akan ditampilkan dengan warna teks putih.
 
 ![halaman utama](./imgsrs/26.jpg)
 
@@ -474,7 +474,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/30.jpg)
 
-1.	.popup-content p: Ini adalah pemilih CSS yang digunakan untuk memilih semua elemen paragraf (<p>) yang berada di dalam elemen dengan kelas CSS ".popup-content." Dengan kata lain, aturan gaya ini hanya akan memengaruhi paragraf yang berada di dalam elemen popup dengan kelas ".popup-content."
+1.	.popup-content p: Ini adalah pemilih CSS yang digunakan untuk memilih semua elemen paragraf (p) yang berada di dalam elemen dengan kelas CSS ".popup-content." Dengan kata lain, aturan gaya ini hanya akan memengaruhi paragraf yang berada di dalam elemen popup dengan kelas ".popup-content."
 2.	text-align: left;: Properti ini mengatur penyejajaran teks dalam paragraf menjadi "left" atau rata kiri. Dengan kata lain, teks dalam paragraf akan disusun ke kiri, sehingga paragraf akan memiliki penyejajaran teks kiri.
 
 ![halaman utama](./imgsrs/31.jpg)
@@ -516,6 +516,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 2.	padding-left: 270px; Properti ini mengatur jarak padding di sisi kiri elemen ".close-login" sebesar 270 piksel. Ini akan membuat teks atau elemen dalam ".close-login" diposisikan lebih ke kanan dalam elemen tersebut, menciptakan jarak horizontal antara elemen ".close-login" dan elemen-elemen sebelah kiri.
 3.	font-size: 20px; Properti ini mengatur ukuran font teks dalam elemen ".close-login" sebesar 20 piksel. Ini akan membuat teks dalam elemen ini lebih besar dari ukuran font default.
 4.	cursor: pointer; Properti ini mengubah kursor mouse menjadi t panah saat diarahkan ke elemen ".close-login." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau mengecilkan popup login atau jendela serupa.
+
 
 
 **Penjelasan JavaScript**
