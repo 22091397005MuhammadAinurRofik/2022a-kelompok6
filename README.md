@@ -124,6 +124,120 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
+
+<title>: Elemen <title> digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html1.jpg)
+
+
+<link rel="stylesheet" type="text/css" href="style.css">: Ini adalah elemen <link> yang menghubungkan file CSS eksternal ke halaman HTML. Atribut href adalah URL file CSS, dan atribut type menunjukkan tipe file tersebut.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html2.jpg)
+
+
+<header>: Elemen <header> berisi elemen-elemen yang mewakili bagian atas halaman web, termasuk judul, navigasi, dan elemen lainnya.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html3.jpg)
+
+
+<h1>, <h3>, <h4>, <h5>: Ini adalah elemen heading yang digunakan untuk menampilkan judul dan subjudul dengan tingkat kepentingan yang berbeda. <h1> adalah yang paling penting dan biasanya digunakan untuk judul utama.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html4.jpg)
+
+![halaman utama](./imgsrs/html5.jpg)
+
+![halaman utama](./imgsrs/html6.jpg)
+
+
+<nav>: Elemen <nav> digunakan untuk mengelompokkan elemen navigasi, seperti tautan ke halaman web lain atau menu.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html7.jpg)
+
+
+<ul>: Elemen <ul> adalah daftar tak terurut (unordered list) yang digunakan untuk membuat daftar tautan atau elemen lain.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html8.jpg)
+
+
+<a>: Elemen <a> adalah elemen anchor (tautan) yang digunakan untuk menghubungkan ke halaman web lain. Dalam kode Anda, tautan ini digunakan untuk navigasi.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html9.jpg)
+
+
+<button>: Elemen <button> adalah tombol yang digunakan untuk memicu tindakan tertentu, seperti navigasi atau tindakan JavaScript. Dalam kode Anda, tombol ini digunakan untuk navigasi dan tindakan seperti membuka popup.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html10.jpg)
+
+![halaman utama](./imgsrs/html10.2.png)
+
+
+<div>: Elemen <div> adalah elemen umum yang digunakan untuk mengelompokkan dan menggantungkan elemen-elemen lain dalam blok.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html11.jpg)
+
+
+<span>: Elemen <span> digunakan untuk menerapkan gaya pada sebagian teks dalam elemen lain, seperti mengganti warna teks.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html12.jpg)
+
+
+<img>: Elemen <img> digunakan untuk menampilkan gambar di halaman web. Atribut src adalah URL gambar.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html13.jpg)
+
+
+<fieldset>, <legend>: Elemen <fieldset> digunakan untuk mengelompokkan elemen formulir, dan elemen <legend> digunakan untuk memberi judul untuk kelompok tersebut. Dalam kode Anda, ini digunakan untuk mengelompokkan elemen-elemen formulir.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html14.jpg)
+
+
+<label>: Elemen <label> digunakan untuk memberi label pada elemen formulir, seperti input teks.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html15.jpg)
+
+![halaman utama](./imgsrs/html16.jpg)
+
+
+<input>: Elemen <input> adalah elemen formulir yang digunakan untuk menerima masukan dari pengguna. Dalam kode Anda, ini digunakan untuk input email dan password.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html17.jpg)
+
+![halaman utama](./imgsrs/html18.jpg)
+
+
+<table>, <tr>, <td>, <th>: Elemen-elemen ini digunakan untuk membuat tabel dan sel dalam tabel. <table> adalah elemen tabel utama, <tr> adalah baris dalam tabel, <td> adalah sel data, dan <th> adalah sel header dalam tabel.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html19.jpg)
+
+
+<footer>: Elemen <footer> digunakan untuk informasi atau tautan di bagian bawah halaman.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html20.jpg)
+
+
+<script src="js.js"></script>: Elemen <script> digunakan untuk menghubungkan file JavaScript eksternal ke halaman HTML. Atribut src mengacu pada file JavaScript eksternal yang akan dijalankan pada halaman web.
+Contoh penggunaan:
+
+![halaman utama](./imgsrs/html21.jpg)
+
+
+
 bagian Header untuk mengdefinisikan bagian nama dan navigasi dari web.
 Pada header tersebut menggunakan tags
 
