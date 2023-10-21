@@ -120,7 +120,7 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 
 3.5 Desain Graphical User Interface
 
-####Penjelasan HTML
+#### Penjelasan HTML
 
 ![halaman utama](./imgsrs/beranda.png)
 ![halaman utama](./imgsrs/halaman1.png)
@@ -238,7 +238,7 @@ Contoh penggunaan:
 
 
 
-####Penjelasan CSS
+#### Penjelasan CSS
 
 ![halaman utama](./imgsrs/1.jpg)
 
@@ -520,7 +520,7 @@ td a hover adalah selector CSS yang mengarah pada tautan yang berada dalam sel-s
 
 
 
-####Penjelasan JavaScript
+#### Penjelasan JavaScript
 
 ![halaman utama](./imgsrs/js.png)
 
