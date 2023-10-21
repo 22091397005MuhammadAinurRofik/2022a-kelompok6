@@ -287,69 +287,135 @@ Pada bagian halaman Login menggunakan tags
 
 ![halaman utama](./imgsrs/19.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	background-color: #dfc7c7; Ini mengatur warna latar belakang elemen dengan kode warna "#dfc7c7." Warna ini adalah nuansa merah muda atau merah muda yang lembut.
+2.	width: 180px; Properti ini mengatur lebar elemen menjadi 180 piksel.
+3.	height: 25px; Properti ini mengatur tinggi elemen menjadi 25 piksel.
+4.	margin-bottom: 10px; Ini menambahkan jarak (margin) sebesar 10 piksel di bagian bawah elemen. Ini akan membuat elemen ini memiliki jarak 10 piksel dari elemen di bawahnya.
+5.	margin-left: 10px; Ini menambahkan jarak (margin) sebesar 10 piksel di sisi kiri elemen. Ini akan membuat elemen ini memiliki jarak 10 piksel dari elemen di sebelah kirinya.
+6.	margin-right: 10px; Ini menambahkan jarak (margin) sebesar 10 piksel di sisi kanan elemen. Ini akan membuat elemen ini memiliki jarak 10 piksel dari elemen di sebelah kanannya.
+7.	border: none; Properti ini menghilangkan batas (border) dari elemen. Dengan demikian, elemen tidak akan memiliki garis batas apa pun di sekelilingnya.
+8.	border-radius: 5px; Ini mengatur sudut (border radius) elemen menjadi 5 piksel. Ini memberikan elemen sudut yang lebih bulat atau melengkung pada keempat sudutnya.
 
 ![halaman utama](./imgsrs/20.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	padding: 50px; Properti ini menambahkan jarak (padding) sebesar 50 piksel di sekeliling elemen. Padding adalah ruang antara konten elemen dan batas (border) elemen. Dalam hal ini, elemen .footer akan memiliki padding 50 piksel di semua sisi (atas, bawah, kanan, dan kiri).
+2.	margin-top: 40px; Properti ini mengatur margin (jarak di luar elemen) sebesar 40 piksel di bagian atas elemen. Ini akan menciptakan jarak vertikal antara elemen .footer dengan elemen di atasnya.
+3.	width: 1266px; Properti ini mengatur lebar elemen .footer menjadi 1266 piksel.
+4.	background-color: #7c66667c; Ini mengatur warna latar belakang elemen dengan kode warna "#7c66667c." Kode warna ini termasuk transparansi (ditunjukkan oleh dua digit terakhir, yaitu "7c"). Kode warna ini mewakili warna abu-abu dengan tingkat transparansi tertentu.
+5.	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); Properti ini menambahkan efek bayangan pada elemen. Bayangan ini tidak memiliki pergeseran horizontal (0), pergeseran vertikal (0), dan ukuran bayangan 5 piksel (5px). Warna bayangan ditentukan dengan kode warna RGBA (red, green, blue, alpha), di mana alpha (0.1) mengendalikan tingkat transparansi bayangan. Ini akan memberikan elemen .footer bayangan tipis dengan tingkat transparansi 10%.
 
 ![halaman utama](./imgsrs/21.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	border-collapse: collapse; Properti ini mengatur perilaku batas (border) antara sel-sel tabel. Nilai "collapse" menggabungkan batas sel-sel sehingga tidak ada celah di antara mereka. Ini menghasilkan tampilan tabel dengan batas yang lebih solid dan bersih.
+2.	margin: 10px 9px 30px; Properti ini mengatur jarak luar (margin) dari tabel. Nilai-nilai ini didefinisikan dalam urutan atas-bawah-kanan-kiri (atau searah jarum jam, mulai dari atas). Dalam hal ini, tabel akan memiliki margin sebesar 10 piksel di bagian atas, 9 piksel di bagian kanan, dan 30 piksel di bagian bawah. Tidak ada margin di sisi kiri.
 
 ![halaman utama](./imgsrs/22.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	border: 0px solid #000000; Properti ini mengatur batas (border) dari elemen <th>. Dalam hal ini, nilai lebar batas (0px) menghilangkan batas sama sekali, sehingga tidak ada garis batas yang akan ditampilkan di sekitar sel header tabel. Warna batas ditentukan dengan kode warna "#000000," yang adalah hitam. Namun, karena lebar batasnya adalah 0 piksel, warna batas ini tidak akan terlihat.
+2.	padding: 6px; Properti ini mengatur jarak dalam elemen <th> antara kontennya dan batas elemen. Dalam hal ini, elemen <th> akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
+3.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen <th>. Dalam hal ini, teks di dalam elemen <th> akan disusun ke kiri. Ini berarti teks dalam sel header tabel akan ditampilkan dengan rata kiri.
 
 ![halaman utama](./imgsrs/23.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	border: 0px solid #000000; Properti ini mengatur batas (border) dari elemen <td>. Dalam hal ini, nilai lebar batas (0px) menghilangkan batas sama sekali, sehingga tidak ada garis batas yang akan ditampilkan di sekitar sel data tabel. Warna batas ditentukan dengan kode warna "#000000," yang adalah hitam. Namun, karena lebar batasnya adalah 0 piksel, warna batas ini tidak akan terlihat.
+2.	font-size: small; Properti ini mengatur ukuran font teks dalam elemen <td>. Nilai "small" mengindikasikan ukuran font yang lebih kecil daripada ukuran font default. Ini bergantung pada pengaturan ukuran font dalam browser pengguna. Penggunaan "small" dapat membuat teks dalam sel data tabel lebih kecil dan lebih cocok untuk tampilan yang lebih padat.
+3.	padding: 6px; Properti ini mengatur jarak dalam elemen <td> antara kontennya dan batas elemen. Dalam hal ini, elemen <td> akan memiliki padding sebesar 6 piksel di sekeliling kontennya. Padding membantu mengontrol seberapa jauh konten akan ditempatkan dari tepi elemen, sehingga memberikan tampilan yang lebih rapi.
+4.	text-align: left; Properti ini mengatur penyejajaran teks di dalam elemen <td>. Dalam hal ini, teks di dalam elemen <td> akan disusun ke kiri. Ini berarti teks dalam sel data tabel akan ditampilkan dengan rata kiri.
 
 ![halaman utama](./imgsrs/24.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	display: flex; Properti ini mengubah tampilan elemen dengan kelas ".pagelihatlainnya" menjadi tampilan berbasis flexbox. Flexbox adalah model tata letak yang memungkinkan elemen-elemen anak di dalamnya untuk secara dinamis disusun dalam baris atau kolom, memungkinkan pengendalian yang lebih baik terhadap penyejajaran dan distribusi elemen. Ini berguna untuk mengatur elemen-elemen secara fleksibel dalam satu arah atau dua arah.
+2.	margin-bottom: 60px; Properti ini mengatur margin (jarak di bawah) elemen dengan kelas ".pagelihatlainnya" sebesar 60 piksel. Ini akan menciptakan jarak vertikal 60 piksel antara elemen ini dan elemen-elemen di bawahnya.
+3.	background-color: #b32c2c; Properti ini mengatur warna latar belakang elemen dengan kelas ".pagelihatlainnya" dengan kode warna "#b32c2c." Warna ini adalah merah tua atau maroon.
 
 ![halaman utama](./imgsrs/25.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	padding-top: 20px; Properti ini mengatur jarak atas (padding atas) antara batas atas elemen <h3> dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di atas teks dalam elemen <h3>.
+2.	padding-bottom: 20px; Properti ini mengatur jarak bawah (padding bawah) antara batas bawah elemen <h3> dan kontennya sebesar 20 piksel. Ini akan memberikan ruang tambahan di bawah teks dalam elemen <h3>.
+3.	color: white; Properti ini mengatur warna teks dalam elemen <h3> menjadi putih. Dengan demikian, teks dalam elemen <h3> yang berada dalam elemen dengan kelas ".pagelihatlainnya" akan ditampilkan dengan warna teks putih.
 
 ![halaman utama](./imgsrs/26.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	width: 40px; Properti ini mengatur lebar elemen dengan kelas ".btn-back" menjadi 40 piksel.
+2.	height: 40px; Properti ini mengatur tinggi elemen dengan kelas ".btn-back" menjadi 40 piksel. Dengan pengaturan lebar dan tinggi yang sama, elemen ini akan berbentuk kotak dengan sisi sepanjang 40 piksel.
+3.	margin-top: 30px; Properti ini mengatur margin (jarak di atas) elemen ".btn-back" sebesar 30 piksel. Ini menciptakan jarak vertikal antara elemen ini dan elemen di atasnya.
+4.	margin-left: 30px; Properti ini mengatur margin (jarak di kiri) elemen ".btn-back" sebesar 30 piksel. Ini menciptakan jarak horizontal di sebelah kiri elemen ini.
+5.	margin-right: 555px; Properti ini mengatur margin (jarak di kanan) elemen ".btn-back" sebesar 555 piksel. Ini menciptakan jarak horizontal di sebelah kanan elemen ini. Angka yang besar ini mungkin digunakan untuk mendorong elemen ini ke arah kanan dalam halaman.
+6.	font-size: 30px; Properti ini mengatur ukuran font teks dalam elemen ".btn-back" sebesar 30 piksel. Ini akan membuat teks di dalam elemen lebih besar.
+7.	color: white; Properti ini mengatur warna teks dalam elemen ".btn-back" menjadi putih.
+8.	background: none; Properti ini menghilangkan latar belakang elemen, sehingga elemen ini tidak memiliki latar belakang yang terlihat.
+9.	border: none; Properti ini menghilangkan batas (border) dari elemen, sehingga tidak ada garis batas yang akan ditampilkan di sekeliling elemen.
 
 ![halaman utama](./imgsrs/27.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	display: none; Properti ini mengatur elemen dengan kelas ".notif" untuk tidak ditampilkan pada awalnya. Ini akan menyembunyikan elemen dari tampilan saat halaman web dimuat. Biasanya, elemen ini akan ditampilkan atau dimunculkan dengan JavaScript atau CSS lainnya saat diperlukan.
+2.	position: fixed; Properti ini mengatur posisi elemen ".notif" menjadi posisi tetap atau terpaku relatif terhadap jendela tampilan. Ini berarti elemen ini akan tetap di lokasi yang sama di dalam jendela tampilan, bahkan ketika pengguna menggulir halaman.
+3.	top: 0; Properti ini mengatur elemen ".notif" untuk berada di atas jendela tampilan. Dengan nilai "0," elemen akan ditempatkan tepat di atas jendela.
+4.	left: 0; Properti ini mengatur elemen ".notif" untuk berada di sebelah kiri jendela tampilan. Dengan nilai "0," elemen akan ditempatkan tepat di sebelah kiri jendela.
+5.	overflow: scroll; Properti ini mengatur elemen ".notif" untuk memiliki bilah geser (scroll) ketika kontennya melebihi ukuran yang tersedia. Dengan kata lain, jika kontennya lebih besar dari tinggi dan lebar elemen, maka pengguna akan dapat menggulir untuk melihat lebih banyak konten.
+6.	width: 100%; Properti ini mengatur lebar elemen ".notif" menjadi 100% lebar jendela tampilan. Ini akan membuat elemen ini mengisi seluruh lebar jendela tampilan.
+7.	height: 100%; Properti ini mengatur tinggi elemen ".notif" menjadi 100% tinggi jendela tampilan. Ini akan membuat elemen ini mengisi seluruh tinggi jendela tampilan.
+8.	background-color: rgba(0, 0, 0, 0.7); Properti ini mengatur warna latar belakang elemen ".notif." Warna latar belakang ditentukan dalam format RGBA, di mana komponen merah (0), hijau (0), dan biru (0) semuanya nol, dan komponen alpha (0.7) mengendalikan tingkat transparansi warna latar belakang. Dalam hal ini, warna latar belakang adalah hitam dengan tingkat transparansi 0.7, sehingga elemen akan memiliki latar belakang hitam yang transparan.
 
 ![halaman utama](./imgsrs/28.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	::-webkit-scrollbar: Ini adalah sejenis pemilih (selector) yang mengacu pada elemen-elemen scrollbars yang muncul di browser berbasis Chromium. Ini adalah pemilihan khusus yang digunakan untuk mengendalikan tampilan scrollbars di browser tersebut.
+2.	display: none;: Properti ini mengatur elemen scrollbars yang dipilih untuk tidak ditampilkan (display: none;). Dengan kata lain, elemen scrollbars akan disembunyikan, dan pengguna tidak akan melihatnya saat mereka menjelajahi halaman web.
 
 ![halaman utama](./imgsrs/29.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	background-color: #ffffff; Properti ini mengatur warna latar belakang elemen ".popup-content" menjadi putih (#ffffff). Ini akan memberikan latar belakang elemen yang berwarna putih.
+2.	margin: 10% auto; Properti ini mengatur margin dari elemen ".popup-content." Nilai 10% pada sisi atas dan bawah akan menciptakan jarak vertikal yang tergantung pada tinggi jendela (10% dari tinggi jendela), sedangkan "auto" pada sisi kiri dan kanan akan memusatkan elemen horizontal.
+3.	padding: 20px; Properti ini mengatur jarak di dalam elemen ".popup-content" antara kontennya dan batas elemen. Dalam hal ini, elemen akan memiliki padding sebesar 20 piksel di sekeliling kontennya. Padding membantu mengendalikan jarak antara konten dan batas elemen.
+4.	width: 80%; Properti ini mengatur lebar elemen ".popup-content" menjadi 80% dari lebar jendela. Ini akan membuat popup menempati 80% dari lebar jendela saat muncul.
+5.	max-width: 600px; Properti ini mengatur lebar maksimum elemen ".popup-content" menjadi 600 piksel. Ini memastikan bahwa elemen tidak akan melebihi lebar maksimum ini, bahkan jika lebar jendela lebih besar.
+6.	position: relative; Properti ini mengatur posisi elemen ".popup-content" sebagai relatif. Ini berarti elemen ini ditempatkan dalam alur normal dokumen dan posisinya dapat disesuaikan dengan properti-posisi lainnya, seperti top, left, right, dan bottom.
+7.	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); Properti ini menambahkan efek bayangan ke elemen ".popup-content." Bayangan ini akan terlihat sebagai pergeseran nol piksel secara horizontal (0), pergeseran 4 piksel secara vertikal (4px), dengan blur 8 piksel (8px) dan menggunakan warna bayangan berdasarkan nilai RGBA (merah, hijau, biru, alpha). Dalam hal ini, bayangan berwarna abu-abu gelap dengan tingkat transparansi 0.2. Ini memberikan elemen efek bayangan yang memberi kesan lebarnya melayang di atas latar belakang.
 
 ![halaman utama](./imgsrs/30.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	.popup-content p: Ini adalah pemilih CSS yang digunakan untuk memilih semua elemen paragraf (<p>) yang berada di dalam elemen dengan kelas CSS ".popup-content." Dengan kata lain, aturan gaya ini hanya akan memengaruhi paragraf yang berada di dalam elemen popup dengan kelas ".popup-content."
+2.	text-align: left;: Properti ini mengatur penyejajaran teks dalam paragraf menjadi "left" atau rata kiri. Dengan kata lain, teks dalam paragraf akan disusun ke kiri, sehingga paragraf akan memiliki penyejajaran teks kiri.
 
 ![halaman utama](./imgsrs/31.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	.popup-content button: Ini adalah pemilih CSS yang digunakan untuk memilih semua elemen tombol yang berada di dalam elemen dengan kelas CSS ".popup-content." Dengan kata lain, aturan gaya ini hanya akan memengaruhi tombol-tombol yang berada di dalam elemen popup dengan kelas ".popup-content."
+2.	width: 550px;: Properti ini mengatur lebar elemen tombol menjadi 550 piksel. Dengan pengaturan ini, tombol-tombol yang berada di dalam elemen popup dengan kelas ".popup-content" akan memiliki lebar yang besar, sepanjang 550 piksel.
 
 ![halaman utama](./imgsrs/32.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	position: absolute; Properti ini mengatur posisi elemen dengan kelas ".close" sebagai posisi absolut. Ini berarti elemen ini akan ditempatkan dengan mengabaikan alur normal dokumen dan akan bergantung pada koordinat yang diatur oleh properti berikutnya.
+2.	top: 10px; Properti ini mengatur elemen ".close" untuk berada pada jarak 10 piksel dari atas tepi elemen yang berisi elemen ini. Dengan kata lain, elemen ".close" akan ditempatkan 10 piksel dari atas elemen yang mengandungnya.
+3.	right: 10px; Properti ini mengatur elemen ".close" untuk berada pada jarak 10 piksel dari tepi kanan elemen yang berisi elemen ini. Dengan kata lain, elemen ".close" akan ditempatkan 10 piksel dari tepi kanan elemen yang mengandungnya.
+4.	font-size: 20px; Properti ini mengatur ukuran font teks dalam elemen ".close" sebesar 20 piksel. Ini akan membuat teks dalam elemen ini lebih besar dari ukuran font default.
+5.	cursor: pointer; Properti ini mengubah kursor mouse menjadi tanda panah saat diarahkan ke elemen ".close." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau menghapus sesuatu, seperti elemen popup.
 
 ![halaman utama](./imgsrs/33.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	display: none; Properti ini mengatur elemen dengan kelas ".notiflogin" untuk tidak ditampilkan (display: none) pada awalnya. Ini akan menyembunyikan elemen dari tampilan saat halaman web dimuat. Biasanya, elemen ini akan ditampilkan atau dimunculkan dengan JavaScript atau CSS lainnya saat notifikasi perlu ditampilkan.
+2.	position: fixed; Properti ini mengatur posisi elemen ".notiflogin" sebagai posisi tetap atau terpaku relatif terhadap jendela tampilan. Ini berarti elemen ini akan tetap di lokasi yang sama di dalam jendela tampilan, bahkan ketika pengguna menggulir halaman.
+3.	top: 0; Properti ini mengatur elemen ".notiflogin" untuk berada di atas jendela tampilan. Dengan nilai "0," elemen akan ditempatkan tepat di atas jendela.
+4.	left: 0; Properti ini mengatur elemen ".notiflogin" untuk berada di sebelah kiri jendela tampilan. Dengan nilai "0," elemen akan ditempatkan tepat di sebelah kiri jendela.
+5.	width: 100%; Properti ini mengatur lebar elemen ".notiflogin" menjadi 100% lebar jendela. Ini akan membuat elemen ini mengisi seluruh lebar jendela tampilan.
+6.	height: 100%; Properti ini mengatur tinggi elemen ".notiflogin" menjadi 100% tinggi jendela tampilan. Ini akan membuat elemen ini mengisi seluruh tinggi jendela tampilan.
+7.	background-color: rgba(0, 0, 0, 0.7); Properti ini mengatur warna latar belakang elemen ".notiflogin." Warna latar belakang ditentukan dalam format RGBA, di mana komponen merah (0), hijau (0), dan biru (0) semuanya nol, dan komponen alpha (0.7) mengendalikan tingkat transparansi warna latar belakang. Dalam hal ini, warna latar belakang adalah hitam dengan tingkat transparansi 0.7, sehingga elemen akan memiliki latar belakang hitam yang transparan.
 
 ![halaman utama](./imgsrs/34.jpg)
 
-Letakkan penjelasannya disini ya...
+1.	background-color: #ffffff00; Properti ini mengatur warna latar belakang elemen ".popup-login" menggunakan kode warna "#ffffff00." Warna ini memiliki komponen alpha (transparansi) yang diatur pada nilai "00" dalam format RGBA. Ini membuat elemen memiliki latar belakang yang sepenuhnya transparan. Dengan kata lain, elemen ini tidak akan memiliki latar belakang yang terlihat.
+2.	margin: 10% auto; Properti ini mengatur margin dari elemen ".popup-login." Nilai 10% pada sisi atas dan bawah akan menciptakan jarak vertikal yang tergantung pada tinggi jendela (10% dari tinggi jendela), sedangkan "auto" pada sisi kiri dan kanan akan memusatkan elemen horizontal.
+3.	padding: 20px; Properti ini mengatur jarak di dalam elemen ".popup-login" antara kontennya dan batas elemen. Dalam hal ini, elemen akan memiliki padding sebesar 20 piksel di sekeliling kontennya. Padding membantu mengendalikan jarak antara konten dan batas elemen.
+4.	width: 80%; Properti ini mengatur lebar elemen ".popup-login" menjadi 80% dari lebar jendela. Ini akan membuat popup menempati 80% dari lebar jendela saat muncul.
+5.	max-width: 600px; Properti ini mengatur lebar maksimum elemen ".popup-login" menjadi 600 piksel. Ini memastikan bahwa elemen tidak akan melebihi lebar maksimum ini, bahkan jika lebar jendela lebih besar.
+6.	position: relative; Properti ini mengatur posisi elemen ".popup-login" sebagai posisi relatif. Ini berarti elemen ini ditempatkan dalam alur normal dokumen dan posisinya dapat disesuaikan dengan properti-posisi lainnya, seperti top, left, right, dan bottom.
+7.	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); Properti ini menambahkan efek bayangan ke elemen ".popup-login." Bayangan ini akan terlihat sebagai pergeseran nol piksel secara horizontal (0), pergeseran 4 piksel secara vertikal (4px), dengan blur 8 piksel (8px) dan menggunakan warna bayangan berdasarkan nilai RGBA (merah, hijau, biru, alpha). Dalam hal ini, bayangan berwarna abu-abu gelap dengan tingkat transparansi 0.2. Ini memberikan elemen efek bayangan yang memberi kesan lebarnya melayang di atas latar belakang.
 
 ![halaman utama](./imgsrs/35.jpg)
+
+1.	color: white; Properti ini mengatur warna teks dalam elemen ".close-login" menjadi putih. Ini berarti teks dalam elemen ini akan ditampilkan dengan warna putih.
+2.	padding-left: 270px; Properti ini mengatur jarak padding di sisi kiri elemen ".close-login" sebesar 270 piksel. Ini akan membuat teks atau elemen dalam ".close-login" diposisikan lebih ke kanan dalam elemen tersebut, menciptakan jarak horizontal antara elemen ".close-login" dan elemen-elemen sebelah kiri.
+3.	font-size: 20px; Properti ini mengatur ukuran font teks dalam elemen ".close-login" sebesar 20 piksel. Ini akan membuat teks dalam elemen ini lebih besar dari ukuran font default.
+4.	cursor: pointer; Properti ini mengubah kursor mouse menjadi tanda panah saat diarahkan ke elemen ".close-login." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau mengecilkan popup login atau jendela serupa.
 
 
 **4. System Features**
