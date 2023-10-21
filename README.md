@@ -51,7 +51,7 @@ Saran pengembangan dalam website OnBook yaitu:
 3. Mmperhatikan Ulasan Pengguna. Ulasan dari pengguna harus diperhatikan dan kita sebagai pengelola harus bisa mengembangkan aplikasi sesuai dengan ulasan dan lebih memperbaikinya lagi.
 
 1.4 Product Scope
-OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari dan membeli buku yang diinginkan. Pada website ini pengguna dapat mengetahui dari cover buku dan deskripsi dari buku tersebut. Jadi pengguna dapat mempertimbangkan keinginannya untuk membeli buku dengan cara mengetahui deskripsi dan rate buku-buku tersebut. Untuk fitur sendiri terdapat akses login dan beranda, yang mana pada login pengguna harus memasukkan email beserta kata sandinya. Terdapat halaman rekomendasi yang menampilkan buku-buku yang mungkin disukai oleh pengguna. Dan yang terakhir adalah halaman popular, menampilkan buku-buku yang paling banyak dibeli oleh para pengguna dan yang paling banyak memiliki rate tertinggi. Website ini juga menyediakan fitur notifikasi, jadi jika ada buku terbaru yang masuk kategori popular maupun rekomendasi akan muncul notifikasi pada handphone maupun PC.
+OnBook merupakan website yang dibuat untuk memudahkan pengguna dalam mencari dan membeli buku yang diinginkan. Pada website ini pengguna dapat mengetahui dari cover buku dan deskripsi dari buku tersebut. Jadi pengguna dapat mempertimbangkan keinginannya untuk membeli buku dengan cara mengetahui deskripsi dan rate buku-buku tersebut. Untuk fitur sendiri terdapat akses login dan ber, yang mana pada login pengguna harus memasukkan email beserta kata sandinya. Terdapat halaman rekomendasi yang menampilkan buku-buku yang mungkin disukai oleh pengguna. Dan yang terakhir adalah halaman popular, menampilkan buku-buku yang paling banyak dibeli oleh para pengguna dan yang paling banyak memiliki rate tertinggi. Website ini juga menyediakan fitur notifikasi, jadi jika ada buku terbaru yang masuk kategori popular maupun rekomendasi akan muncul notifikasi pada handphone maupun PC.
 
 
 **2. Overall Description**
@@ -96,7 +96,7 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 3.1 User Interfaces
 
    Antarmuka pengguna yang ada pada website OnBook adalah sebagai berikut:
-      1. Beranda: Pada halaman beranda ini, terdapat menu login untuk pengguna
+      1. Ber: Pada halaman ber ini, terdapat menu login untuk pengguna
       2. Rekomendasi: Halaman ini menampilkan beberapa buku rekomendasi yang disarankan kepada pengguna
       3. Popular: Halaman ini akan menampilkan buku-buku yang sedang popular
 
@@ -120,9 +120,9 @@ Website OnBook ini mempunyai dua interface. Yang pertama yaitu dapat dikunjungi 
 
 3.5 Desain Graphical User Interface
 
-\*Penjelasan HTML
+**Penjelasan HTML**
 
-![halaman utama](./imgsrs/beranda.png)
+![halaman utama](./imgsrs/ber.png)
 ![halaman utama](./imgsrs/halaman1.png)
 
 1. tag ***title** digunakan untuk menentukan judul halaman web yang akan ditampilkan di bilah judul peramban.
@@ -171,7 +171,7 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html9.jpg)
 
 
-8. tag **button** adalah tombol yang digunakan untuk memicu tindakan tertentu, seperti navigasi atau tindakan JavaScript. Dalam kode Anda, tombol ini digunakan untuk navigasi dan tindakan seperti membuka popup.
+8. tag **button** adalah tombol yang digunakan untuk memicu tindakan tertentu, seperti navigasi atau tindakan JavaScript. Dalam kode , tombol ini digunakan untuk navigasi dan tindakan seperti membuka popup.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html10.jpg)
@@ -197,7 +197,7 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html13.jpg)
 
 
-12. tag **fieldset**, **legend** : **fieldset** digunakan untuk mengelompokkan elemen formulir, dan **legend** digunakan untuk memberi judul untuk kelompok tersebut. Dalam kode Anda, ini digunakan untuk mengelompokkan elemen-elemen formulir.
+12. tag **fieldset**, **legend** : **fieldset** digunakan untuk mengelompokkan elemen formulir, dan **legend** digunakan untuk memberi judul untuk kelompok tersebut. Dalam kode , ini digunakan untuk mengelompokkan elemen-elemen formulir.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html14.jpg)
@@ -211,7 +211,7 @@ Contoh penggunaan:
 ![halaman utama](./imgsrs/html16.jpg)
 
 
-14. tag **input** adalah elemen formulir yang digunakan untuk menerima masukan dari pengguna. Dalam kode Anda, ini digunakan untuk input email dan password.
+14. tag **input** adalah elemen formulir yang digunakan untuk menerima masukan dari pengguna. Dalam kode , ini digunakan untuk input email dan password.
 Contoh penggunaan:
 
 ![halaman utama](./imgsrs/html17.jpg)
@@ -238,7 +238,7 @@ Contoh penggunaan:
 
 
 
-\*Penjelasan CSS
+**Penjelasan CSS**
 
 ![halaman utama](./imgsrs/1.jpg)
 
@@ -328,7 +328,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 ![halaman utama](./imgsrs/10.jpg)
 
 1.	text-align: center;: Baris ini mengatur alignment (penyelarasan) teks dalam elemen-elemen dengan class "containerbook" menjadi terpusat (centered). Ini berarti teks dalam elemen tersebut akan ditampilkan secara horizontal dalam keadaan terpusat.
-2.	display: inline-block;: Baris ini mengatur properti display elemen-elemen dengan class "containerbook" menjadi "inline-block." Ini membuat elemen tersebut memiliki perilaku seperti elemen inline, sehingga mereka dapat tampil berdampingan, tetapi juga memungkinkan Anda untuk menentukan lebar dan tinggi untuk elemen tersebut. Ini sering digunakan untuk membuat elemen-elemen tampil sebagai kotak (block-like) dalam konten yang bersifat inline.
+2.	display: inline-block;: Baris ini mengatur properti display elemen-elemen dengan class "containerbook" menjadi "inline-block." Ini membuat elemen tersebut memiliki perilaku seperti elemen inline, sehingga mereka dapat tampil berdampingan, tetapi juga memungkinkan  untuk menentukan lebar dan tinggi untuk elemen tersebut. Ini sering digunakan untuk membuat elemen-elemen tampil sebagai kotak (block-like) dalam konten yang bersifat inline.
 3.	margin-left: 47px;: Ini menambahkan margin (ruang kosong) di sebelah kiri elemen-elemen dengan class "containerbook" sebesar 47 piksel. Hal ini menciptakan ruang di sebelah kiri elemen, sehingga elemen tersebut akan tergeser dari konten sebelah kiri.
 4.	background-color: #ffffff;: Baris ini mengatur warna latar belakang (background color) dari elemen-elemen dengan class "containerbook" menjadi putih (#ffffff). Ini akan memberikan elemen-elemen tersebut latar belakang berwarna putih.
 5.	border-radius: 5px;: Ini membulatkan sudut-sudut elemen-elemen dengan class "containerbook." Properti border-radius mengatur jari-jari sudut elemen sebesar 5 piksel, memberikan elemen tersebut sudut-sudut yang sedikit dibulatkan.
@@ -368,13 +368,13 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 
 ![halaman utama](./imgsrs/16.jpg)
 
-1.	display: flex;: Baris ini mengatur elemen-elemen dengan class "halamanbuku" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex," Anda mengubah elemen-elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu atau beberapa baris sesuai kebutuhan.
+1.	display: flex;: Baris ini mengatur elemen-elemen dengan class "halamanbuku" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex,"  mengubah elemen-elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu atau beberapa baris sesuai kebutuhan.
 2.	flex-wrap: wrap;: Properti flex-wrap mengatur cara elemen-elemen anak dalam kontainer flex tersebut akan dibungkus jika melebihi lebar kontainer. Dalam kasus ini, nilai "wrap" berarti jika elemen-elemen anak melebihi lebar kontainer, mereka akan dibungkus ke baris atau kolom berikutnya. Ini memungkinkan elemen-elemen tersebut untuk mengatur ulang secara otomatis dalam beberapa baris jika perlu.
 3.	gap: 15px;: Ini mengatur jarak (spacing) antara elemen-elemen anak dalam kontainer flex. Jarak ini didefinisikan sebagai 15 piksel. Ini berlaku baik secara horizontal maupun vertikal, sehingga elemen-elemen akan memiliki ruang 15 piksel di antara mereka.
 
 ![halaman utama](./imgsrs/17.jpg)
 
-1.	display: flex;: Baris ini mengatur elemen dengan class "judulhalaman" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex," Anda mengubah elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu baris (secara default) atau kolom, dan memberikan fleksibilitas dalam penataan elemen anak.
+1.	display: flex;: Baris ini mengatur elemen dengan class "judulhalaman" untuk menggunakan model tata letak flexbox. Dengan mengatur display menjadi "flex,"  mengubah elemen tersebut menjadi kontainer flex yang dapat mengatur elemen-elemen anaknya dalam satu baris (secara default) atau kolom, dan memberikan fleksibilitas dalam penataan elemen anak.
 2.	justify-content: space-between;: Properti justify-content mengatur cara elemen anak dalam kontainer flex akan didistribusikan secara horizontal. Dengan nilai "space-between," elemen-elemen anak akan diposisikan pada ujung kanan dan kiri kontainer dengan jarak yang sebanyak mungkin di antara mereka. Ini menciptakan tampilan elemen-elemen anak yang terletak di kedua ujung horisontal kontainer, memberikan ruang kosong di antara mereka.
 3.	padding-right: 20px;, padding-left: 20px;, padding-top: 100px;, padding-bottom: 20px;: Ini mengatur jarak (padding) dari elemen dengan class "judulhalaman." Padding digunakan untuk menambahkan ruang di sekitar elemen tersebut. Properti padding-right dan padding-left menambahkan padding sebanyak 20 piksel di sisi kanan dan kiri elemen, sementara padding-top menambahkan 100 piksel di bagian atas dan padding-bottom menambahkan 20 piksel di bagian bawah elemen.
 
@@ -488,7 +488,7 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 2.	top: 10px; Properti ini mengatur elemen ".close" untuk berada pada jarak 10 piksel dari atas tepi elemen yang berisi elemen ini. Dengan kata lain, elemen ".close" akan ditempatkan 10 piksel dari atas elemen yang mengandungnya.
 3.	right: 10px; Properti ini mengatur elemen ".close" untuk berada pada jarak 10 piksel dari tepi kanan elemen yang berisi elemen ini. Dengan kata lain, elemen ".close" akan ditempatkan 10 piksel dari tepi kanan elemen yang mengandungnya.
 4.	font-size: 20px; Properti ini mengatur ukuran font teks dalam elemen ".close" sebesar 20 piksel. Ini akan membuat teks dalam elemen ini lebih besar dari ukuran font default.
-5.	cursor: pointer; Properti ini mengubah kursor mouse menjadi tanda panah saat diarahkan ke elemen ".close." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau menghapus sesuatu, seperti elemen popup.
+5.	cursor: pointer; Properti ini mengubah kursor mouse menjadi t panah saat diarahkan ke elemen ".close." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau menghapus sesuatu, seperti elemen popup.
 
 ![halaman utama](./imgsrs/33.jpg)
 
@@ -515,20 +515,41 @@ button: Merujuk pada elemen-elemen <button> yang berada dalam elemen-elemen <ul>
 1.	color: white; Properti ini mengatur warna teks dalam elemen ".close-login" menjadi putih. Ini berarti teks dalam elemen ini akan ditampilkan dengan warna putih.
 2.	padding-left: 270px; Properti ini mengatur jarak padding di sisi kiri elemen ".close-login" sebesar 270 piksel. Ini akan membuat teks atau elemen dalam ".close-login" diposisikan lebih ke kanan dalam elemen tersebut, menciptakan jarak horizontal antara elemen ".close-login" dan elemen-elemen sebelah kiri.
 3.	font-size: 20px; Properti ini mengatur ukuran font teks dalam elemen ".close-login" sebesar 20 piksel. Ini akan membuat teks dalam elemen ini lebih besar dari ukuran font default.
-4.	cursor: pointer; Properti ini mengubah kursor mouse menjadi tanda panah saat diarahkan ke elemen ".close-login." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau mengecilkan popup login atau jendela serupa.
+4.	cursor: pointer; Properti ini mengubah kursor mouse menjadi t panah saat diarahkan ke elemen ".close-login." Ini memberikan indikasi visual kepada pengguna bahwa elemen ini dapat diklik atau digunakan untuk menutup atau mengecilkan popup login atau jendela serupa.
+
+
+**Penjelasan JavaScript**
+
+![halaman utama](./imgsrs/js.png)
+
+**function openPopup(buku)** :
+
+Fungsi **openPopup** digunakan untuk membuka pop-up dengan mengubah properti display elemen HTML yang sesuai menjadi "block". Pop-up ini mungkin berisi deskripsi buku atau informasi tambahan.
+Parameter **buku** adalah argumen yang digunakan untuk menentukan pop-up mana yang harus dibuka. Ini adalah sebuah string yang akan digunakan untuk mengidentifikasi elemen pop-up yang sesuai dengan buku tertentu.
+Di dalam fungsi, **document.getElementById(notif-${buku})** digunakan untuk mengambil elemen HTML dengan ID yang sesuai dengan nilai buku. Ini memungkinkan untuk mengidentifikasi elemen pop-up yang ingin dibuka.
+Kemudian, properti **style.display** dari elemen pop-up tersebut diubah menjadi "block", yang akan membuatnya terlihat atau terbuka.
+
+**function closePopup(buku)** :
+
+Fungsi **closePopup** digunakan untuk menutup pop-up dengan mengubah properti display elemen HTML yang sesuai menjadi "none".
+Parameter **buku** digunakan untuk menentukan pop-up mana yang harus ditutup, sama seperti dalam fungsi **openPopup**.
+Di dalam fungsi, **document.getElementById(notif-${buku})** digunakan untuk mengambil elemen HTML dengan ID yang sesuai dengan nilai buku, yang akan mengidentifikasi elemen pop-up yang ingin ditutup.
+Selanjutnya, properti **style.display** dari elemen pop-up tersebut diubah menjadi "none", yang akan membuatnya tidak terlihat atau tertutup.
+Dengan menggunakan dua fungsi ini, dapat mengontrol tampilan dan perilaku pop-up pada halaman web. Saat fungsi openPopup dipanggil dengan buku tertentu, pop-up dengan ID yang sesuai akan terbuka, dan saat fungsi closePopup dipanggil, pop-up tersebut akan tertutup. 
+
 
 
 **4. System Features**
 
-4.1 Halaman Beranda
+4.1 Halaman Ber
    
 4.1.1 Description and Priority
 
-   Halaman beranda merupakan fitur utama dalam website OnBook. Pada halaman ini, pengguna diminta untuk login ke dalam website agar bisa melihat ulasan buku lebih lanjut.   
+   Halaman ber merupakan fitur utama dalam website OnBook. Pada halaman ini, pengguna diminta untuk login ke dalam website agar bisa melihat ulasan buku lebih lanjut.   
    
 4.1.2 Stimulus/Response Sequences
 
-   Stimulus = Pengguna akan melihat halaman beranda yang menampilkan kolom untuk login
+   Stimulus = Pengguna akan melihat halaman ber yang menampilkan kolom untuk login
    Respon = Pengguna melakukan login
    
 4.1.3 Functional Requirements
@@ -589,7 +610,7 @@ Untuk persyaratan keamanan pada website OnBook ini yaitu :
 
 5.4 Software Quality Attributes
 Beberapa Kualitas pada Website yang ada yaitu sebagai berikut:
-- Keandalan
+- Kelan
    Website ini dapat diakses selama 24 jam penuh asalkan tetap terhubung pada internet.
 - Keamanan
    Keamanan pengguna dapat terjaga karena terdapat email dan kata sandi pribadi dari setiap user.
