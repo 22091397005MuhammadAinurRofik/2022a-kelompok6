@@ -655,5 +655,17 @@ Untuk daftar yang akan ditentukan ada beberapa yang akan dikembangkan, yaitu:
 
 Appendix D: UI Design
 Sebelum membuat website, di sini terdapat desain UI yang sudah kami design di aplikasi Figma. Desain pada aplikasi figma ini kurang lebih sama seperti yang sudah tertera pada HTML website kami. Berikut gambaran Figma yang kami buat:
+
+Pada halaman pertama user akan langsung kami arahkan untuk Login ke dalam website kami dengan tampilan sebagai berikut:
+![Figma Login](https://github.com/22091397005MuhammadAinurRofik/2022a-kelompok6/assets/117995183/e3d956b1-a243-4a40-b582-d4dd8633d937)
+
+Kemudian di sini kami membuat halaman beranda yang dimana nanti akan menampilkan buku-buku yang sesuai dengan genre-nya
 ![Figma Beranda](https://github.com/22091397005MuhammadAinurRofik/2022a-kelompok6/assets/117995183/b9776ad6-4f8c-44d6-9b4c-b69fc9c08a8a)
 
+Setelah beranda, di halaman selanjutnya terdapat halaman rekomendasi. Halaman ini merupakan halaman yang berfungsi untuk menampilkan rekomendasi yang sesuai untuk user atau yang kemungkinan besar akan disukai oleh user yang telah membuka website OnBook ini. Untuk tampilannya adalah sebagai berikut:
+![Figma Rekomendasi](https://github.com/22091397005MuhammadAinurRofik/2022a-kelompok6/assets/117995183/3e9cb46d-c630-43b0-baaf-f216d5d13453)
+
+Yang terakhir adalah halaman popular. Pada halaman ini berisi buku-buku yang paling diminati oleh banyak kalangan, baik novel, manga, komik, kamus, biografi dan lain sebagainya akan muncul pada halaman ini. Berikut untuk tampilan design nya:
+![Figma Popular](https://github.com/22091397005MuhammadAinurRofik/2022a-kelompok6/assets/117995183/d8a797e3-1ef3-44e2-bacd-81b9ed548720)
+
+Setelah dibuatnya desain UI seperti di atas yang kemudian diimplementasikan pada website OnBook yang sudah dibuat. Namun tampilan yang tertera pada website OnBook sedikit berbeda dari tampilan Desain UI kami. Di website OnBook tampilannya lebih dibuat menarik dan rapi untuk memberikan rasa nyaman pada user yang sudah mampir dan berlangganan pada website kami ini.
