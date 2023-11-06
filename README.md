@@ -652,3 +652,8 @@ Untuk daftar yang akan ditentukan ada beberapa yang akan dikembangkan, yaitu:
 2. Kami akan memperbaiki tampilan pada website agar lebih menarik.
 3. Menambah akses keamanan data pengguna yang sudah pernah login ke website OnBook.
 4. Menambahkan fitur-fitur baru untuk menarik minat pengguna.
+
+Appendix D: UI Design
+Sebelum membuat website, di sini terdapat desain UI yang sudah kami design di aplikasi Figma. Desain pada aplikasi figma ini kurang lebih sama seperti yang sudah tertera pada HTML website kami. Berikut gambaran Figma yang kami buat:
+![Figma Beranda](./image/figma.jpg)
+
