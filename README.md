@@ -655,5 +655,5 @@ Untuk daftar yang akan ditentukan ada beberapa yang akan dikembangkan, yaitu:
 
 Appendix D: UI Design
 Sebelum membuat website, di sini terdapat desain UI yang sudah kami design di aplikasi Figma. Desain pada aplikasi figma ini kurang lebih sama seperti yang sudah tertera pada HTML website kami. Berikut gambaran Figma yang kami buat:
-![Figma Beranda](./image/figma.jpg)
+![Figma Beranda](https://github.com/22091397005MuhammadAinurRofik/2022a-kelompok6/assets/117995183/b9776ad6-4f8c-44d6-9b4c-b69fc9c08a8a)
 
